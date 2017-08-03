@@ -1,4 +1,4 @@
-![happy-g-day-logo](./public/images/GDay Logo.png)
+![happy-g-day-logo](./public/images/GDay%20Logo.png)
 Gives notification for a person's birthday for Galvanize, including a website and server to store a database
 
 Team Name: Dev Cru
@@ -15,5 +15,3 @@ Team Members:
 ![wireframe](./public/images/happy-g-day-wireframe.png)
 
 ![erd](./public/images/erd-mockup.jpg)
-
-created production branch
