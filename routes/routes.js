@@ -10,6 +10,7 @@ const getOneUserById = require('./get-one-user-by-id');
 const getAllComments = require('./get-all-comments');
 const getOneCommentById = require('./get-one-comment-by-id');
 const postNewUser = require('./post-new-user');
+const postNewComment = require('./post-new-comment');
 const updateUser = require('./update-user');
 const deleteComment = require('./delete-comment');
 
@@ -20,7 +21,7 @@ router.get('/users/:id', getOneUserById);
 router.get('/comments', getAllComments);
 router.get('/comments/:id', getOneCommentById);
 router.post('/users', postNewUser);
-router.post('/comments' postNewComment);
+router.post('/comments', postNewComment);
 router.put('/users/:id', updateUser);
 router.delete('/comments/:id', deleteComment);
 
