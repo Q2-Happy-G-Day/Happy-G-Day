@@ -1,4 +1,6 @@
 
+const express = require('express');
+
 // getOneUserById
 
 module.exports = (req, res) => {

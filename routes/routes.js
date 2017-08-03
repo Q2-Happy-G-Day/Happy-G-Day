@@ -1,18 +1,18 @@
 //require express and initiate router
 
-var express = require('express');
-var router = express.Router();
+const express = require('express');
+const router = express.Router();
 
 // route function requirements
 
-const getAllUsers = require('./get-all-users');
-const getOneUserById = require('./get-one-user-by-id');
-const getAllComments = require('./get-all-comments');
-const getOneCommentById = require('./get-one-comment-by-id');
-const postNewUser = require('./post-new-user');
-const postNewComment = require('./post-new-comment');
-const updateUser = require('./update-user');
-const deleteComment = require('./delete-comment');
+const getAllUsers = require('./get-all-users.js');
+const getOneUserById = require('./get-one-user-by-id.js');
+const getAllComments = require('./get-all-comments.js');
+const getOneCommentById = require('./get-one-comment-by-id.js');
+const postNewUser = require('./post-new-user.js');
+const postNewComment = require('./post-new-comment.js');
+const updateUser = require('./update-user.js');
+const deleteComment = require('./delete-comment.js');
 
 // Router handling for server
 

@@ -1,4 +1,6 @@
 
+const express = require('express');
+
 //getAllComments
 
 module.exports = (req, res) => {

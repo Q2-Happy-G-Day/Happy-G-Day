@@ -1,4 +1,6 @@
 
+const express = require('express');
+
 //postNewComment
 
 module.exports = (req, res) => {

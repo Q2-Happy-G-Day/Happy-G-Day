@@ -1,4 +1,6 @@
 
+const express = require('express');
+
 //postNewUser
 
 module.exports = (req, res) => {
