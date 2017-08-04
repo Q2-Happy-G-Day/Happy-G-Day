@@ -6,6 +6,12 @@ body {
 a {
   color: #00B7FF;
 }
-h1 {
-  color: red;
+
+
+.navbar-toggleable-md .navbar-collapse {
+  width: auto !important;
+}
+
+.my-1 {
+  margin-right: 10px;
 }
