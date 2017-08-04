@@ -6,3 +6,12 @@ body {
 a {
   color: #00B7FF;
 }
+
+
+.navbar-toggleable-md .navbar-collapse {
+  width: auto !important;
+}
+
+.my-1 {
+  margin-right: 10px;
+}
