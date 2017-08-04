@@ -1,6 +1,7 @@
 const knex = require('../db/knex');
 
 module.exports = {
+
   getAllUsers: () => {
     return knex('user');
   },

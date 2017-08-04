@@ -12,6 +12,14 @@ a {
   width: auto !important;
 }
 
-.my-1 {
+.my-2 {
   margin-right: 10px;
+}
+
+.m-logo {
+  float: right;
+}
+
+.form-group2 {
+  display: inline-block !important;
 }
