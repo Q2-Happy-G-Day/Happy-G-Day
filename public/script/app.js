@@ -3,6 +3,10 @@ var url = '/api/v1/users';
 $(document).ready(() => {
   $.get(url)
     .then((data) => {
-      console.log(data);
+
+      $("#myBtn1").click(function(event) {
+        event.preventDefault()
+        $("#myModal").modal();
+      });
     })
 });
