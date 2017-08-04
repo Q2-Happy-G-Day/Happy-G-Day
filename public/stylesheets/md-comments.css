@@ -1,0 +1,38 @@
+.comment-section {
+  height: 10em;
+  width: 40em;
+  padding: 1em;
+  overflow: scroll;
+  border: 1px solid gray;
+}
+
+.list-group-item {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style-type: disc;
+}
+.comment {
+  font-size: 1em;
+  right: 2em;
+}
+
+.delete-button {
+  height: 2em;
+  width: 2em;
+  font-size: .5em;
+  padding: 3px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+}
+
+.delete-button:hover {
+  cursor: pointer;
+}
+
+.list-group-item {
+}
+
+body {
+  margin: 20px;
+}
