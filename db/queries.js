@@ -1,7 +1,7 @@
 const knex = require('../db/knex');
 
 module.exports = {
-<<<<<<< HEAD
+
   getAllUsers: () => {
     return knex('user');
   },
@@ -26,7 +26,4 @@ module.exports = {
   deleteComment: (comment, id) => {
     return knex('comment').where('id', id).del();
   }
-=======
-
->>>>>>> 3353dcea8d4c934333c63c5530c469b3e6e5915a
 }
