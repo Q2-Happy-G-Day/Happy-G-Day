@@ -25,6 +25,6 @@ exports.seed = function(knex, Promise) {
         birthday_user_id: 1,
         comment_user_id: 4
       }];
-      return knex('table_name').insert(comments);
+      return knex('comment').insert(comments);
     });
 };
