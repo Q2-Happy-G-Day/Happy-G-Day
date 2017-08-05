@@ -1,4 +1,4 @@
-var modal = `<div class="container">
+const modal = `<div class="container">
                   <!-- Sign Up Modal -->
                     <div class="modal fade" id="myModal" role="dialog">
                       <div class="modal-dialog">
