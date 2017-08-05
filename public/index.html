@@ -23,56 +23,51 @@
 
     <section id="profiles">
       <div class="profilecomponent">
-      <div class="row">
-        <div class="panel panel-primary col-xs-6 col-md-4">
-          <div class="panel-heading">
-            <h3 class="panel-title ">Profile</h3>
-          </div>
-          <div class="panel-body" id="profile">
-            <p>Name: ${user.name}</p>
-            <p>Birthday: ${user.birthday}</p>
+        <div class="panel panel-primary col-xs-2 col-md-3 profilebox">
+          <div class="card text-center">
+            <div class="card-header">
+              Happy Birthday!
+            </div>
+            <div class="card-block">
+              <h4 class="card-title">Name</h4>
+              <p class="card-text">Birthday:</p>
+              <button type="button" class="btn btn-default comment-button">Leave Comment</button>
+            </div>
           </div>
         </div>
-      </div>
-      <section class="comment-section">
-        <ul class="list-group comment-list">
-          <li class="list-group-item">
-            <button class="btn btn-default delete-button" type="button" name="deleteComment">X</button>
-            <p class="comment">Happy Birthday!</p>
-          </li>
-          <li class="list-group-item">
-            <p class="comment">Happy Birthday, Buddy!</p>
-          </li>
-          <li class="list-group-item">
-            <button class="btn btn-default delete-button" type="button" name="deleteComment">X</button>
-            <p class="comment">Hope you have a good one!</p>
-          </li>
-          <li class="list-group-item">
-            <p class="comment">Happy Birthday, Buddy!</p>
-          </li>
-          <li class="list-group-item">
-            <p class="comment">Happy Birthday, Buddy!</p>
-          </li>
-          <li class="list-group-item">
-            <p class="comment">Happy Birthday, Buddy!</p>
-          </li>
-          <li class="list-group-item">
-            <p class="comment">Happy Birthday, Buddy!</p>
-          </li>
-          <li class="list-group-item">
-            <p class="comment">Happy Birthday, Buddy!</p>
-          </li>
-          <li class="list-group-item">
-            <p class="comment">Happy Birthday, Buddy!</p>
-          </li>
-          <li class="list-group-item">
-            <p class="comment">Happy Birthday, Buddy!</p>
-          </li>
-        </ul>
 
-        </section>
-      </div>
-    </section>
+      <section class="comment-section">
+        <table class=“table”>
+          <tbody id=“table-body”>
+            <tr>
+              <td><p class=“comment”>User Name <br>Happy Birthday!</p></td>
+              <td><button class=“btn btn-default delete-button” type=“button” name=“deleteComment”>X</button></td>
+            </tr>
+            <tr>
+              <td><p class=“comment”>User Name <br>Happy Birthday, Buddy!</p></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><p class=“comment”>User Name <br>Happy Birthday, my friend!</p></td>
+              <td><button class=“btn btn-default delete-button” type=“button” name=“deleteComment”>X</button></td>
+            </tr>
+            <tr>
+              <td><p class=“comment”>User Name <br>Happy Birthday!</p></td>
+              <td><button class=“btn btn-default delete-button” type=“button” name=“deleteComment”>X</button></td>
+            </tr>
+            <tr>
+              <td><p class=“comment”>User Name <br>Happy Birthday, Buddy!</p></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><p class=“comment”>User Name <br>Happy Birthday, my friend!</p></td>
+              <td><button class=“btn btn-default delete-button” type=“button” name=“deleteComment”>X</button></td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </div>
+  </section>
 
     <!--Calendar-->
     <section id="calendar"></section>

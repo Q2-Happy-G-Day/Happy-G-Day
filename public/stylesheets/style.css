@@ -7,7 +7,9 @@ a {
   color: #00B7FF;
 }
 
-
+#id{
+  mar
+}
 .navbar-toggleable-md .navbar-collapse {
   width: auto !important;
 }
@@ -36,15 +38,32 @@ a {
   display: inline-block !important;
 }
 
+element {
+  --profile-height: 15em;
+}
 .profilecomponent {
-  border: 1px solid grey;
   display: flex;
+  height: var(--profile-height);
 }
 .comment-section {
-  height: 10em;
-  width: 40em;
+  height: 100%;
   padding: 1em;
   overflow: scroll;
+  border: 1px solid #F2911F;
+  border-radius: 5px;
+  width: 100%;
+}
+.comment-button {
+    color: #f2911f ;
+    background-image: none;
+    background-color: transparent;
+    border-color: #f2911f ;
+}
+
+.comment-button:hover {
+    color: #fff;
+    background-color: #f2911f ;
+    border-color: #f2911f ;
 }
 
 .list-group-item {
@@ -69,4 +88,28 @@ a {
 
 .delete-button:hover {
   cursor: pointer;
+}
+
+tbody tr > td {
+  text-align: center;
+}
+
+tbody tr > td:first-child {
+  text-align: left;
+}
+
+tbody > tr:nth-child(even) {
+  background-color: rgba(180, 180, 180, 0.5);
+}
+
+table {
+  width: 100%;
+}
+
+.profilebox {
+  height: var(--profile-height) !important;
+}
+
+.card {
+  height: 100%;
 }
