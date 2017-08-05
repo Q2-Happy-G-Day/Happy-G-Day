@@ -59,9 +59,8 @@ a {
 }
 
 .delete-button {
-  height: 2em;
   width: 2em;
-  font-size: .5em;
+  width: 2em;
   padding: 3px;
   margin-right: 5px;
   margin-bottom: 10px;
@@ -69,4 +68,12 @@ a {
 
 .delete-button:hover {
   cursor: pointer;
+}
+
+tbody tr > td:first-child {
+  text-align: center;
+}
+
+tbody > tr:nth-child(even) {
+  background-color: rgba(180, 180, 180, 0.5);
 }
