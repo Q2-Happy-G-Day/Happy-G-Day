@@ -7,6 +7,7 @@ $(document).ready(() => {
 function inititiatePage(data) {
   $('#nav').append(nav);
   $('#modal').append(modal);
+  $('footer').append(footer);
   $("#myBtn1").click(function(event) {
     event.preventDefault();
     $("#myModal").modal();
