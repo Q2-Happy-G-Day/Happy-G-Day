@@ -1,6 +1,6 @@
 function calendar(users) {
   for (var i = 1; i <= 12; i++) {
-    let months =`<div id="calenderBox">
+    let months =`<div id="calendarBox">
                   <div class="content">
                     <div class="profiledate m${i}">
                     </div>
