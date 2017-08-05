@@ -11,15 +11,66 @@
 </head>
 
 <body>
-  
+
   <!--Header -->
   <header id="nav"></header>
   <!--Signup and Login -->
   <section id="modal"></section>
 
   <main>
+
     <!--Profiles with comment seciton-->
-    <section id="profiles"></section>
+    <section id="profiles">
+      <div class="row">
+        <div class="panel panel-primary col-xs-6 col-md-4">
+          <div class="panel-heading">
+            <h3 class="panel-title ">Profile</h3>
+          </div>
+          <div class="panel-body" id="profile">
+            <p>Name: ${user.name}</p>
+            <p>Birthday: ${user.birthday}</p>
+          </div>
+        </div>
+      </div>
+      <section class="comment-section">
+        <ul class="list-group comment-list">
+          <li class="list-group-item">
+            <button class="btn btn-default delete-button" type="button" name="deleteComment">X</button>
+            <p class="comment">Happy Birthday!</p>
+          </li>
+          <li class="list-group-item">
+            <p class="comment">Happy Birthday, Buddy!</p>
+          </li>
+          <li class="list-group-item">
+            <button class="btn btn-default delete-button" type="button" name="deleteComment">X</button>
+            <p class="comment">Hope you have a good one!</p>
+          </li>
+          <li class="list-group-item">
+            <p class="comment">Happy Birthday, Buddy!</p>
+          </li>
+          <li class="list-group-item">
+            <p class="comment">Happy Birthday, Buddy!</p>
+          </li>
+          <li class="list-group-item">
+            <p class="comment">Happy Birthday, Buddy!</p>
+          </li>
+          <li class="list-group-item">
+            <p class="comment">Happy Birthday, Buddy!</p>
+          </li>
+          <li class="list-group-item">
+            <p class="comment">Happy Birthday, Buddy!</p>
+          </li>
+          <li class="list-group-item">
+            <p class="comment">Happy Birthday, Buddy!</p>
+          </li>
+          <li class="list-group-item">
+            <p class="comment">Happy Birthday, Buddy!</p>
+          </li>
+
+        </ul>
+      </section>
+      
+    </section>
     <!--Calendar-->
     <section id="calendar"></section>
   </main>
