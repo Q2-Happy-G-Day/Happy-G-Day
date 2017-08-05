@@ -111,4 +111,36 @@ table {
 
 .card {
   height: 100%;
+
+  #calenderBox {
+    margin-left: 12%;
+  }
+
+  .content {
+    float: left;
+    padding-top: 50px;
+  }
+
+  .m1 {
+    background-image: image(../images/GDay.png);
+  }
+
+  .profiledate {
+    padding: 5px;
+    text-align: center;
+    border: 1px solid #f2911f;
+    width: 200px;
+    height: 20%;
+  }
+
+  .persons {
+    text-align: left;
+    border: 1px solid #acacac;
+    width: 200px;
+    height: 170px;
+  }
+
+  .persons p {
+    padding-top: 5px;
+    padding-left: 10px;
 }
