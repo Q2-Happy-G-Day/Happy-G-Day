@@ -19,7 +19,54 @@ a {
 .m-logo {
   float: right;
 }
+.btn-outline-success {
+    color: #f2911f ;
+    background-image: none;
+    background-color: transparent;
+    border-color: #f2911f ;
+}
+
+.btn-outline-success:hover {
+    color: #fff;
+    background-color: #f2911f ;
+    border-color: #f2911f ;
+}
 
 .form-group2 {
   display: inline-block !important;
+}
+
+.profilecomponent {
+  border: 1px solid grey;
+  display: flex;
+}
+.comment-section {
+  height: 10em;
+  width: 40em;
+  padding: 1em;
+  overflow: scroll;
+}
+
+.list-group-item {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style-type: disc;
+}
+.comment {
+  font-size: 1em;
+  right: 2em;
+}
+
+.delete-button {
+  height: 2em;
+  width: 2em;
+  font-size: .5em;
+  padding: 3px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+}
+
+.delete-button:hover {
+  cursor: pointer;
 }
