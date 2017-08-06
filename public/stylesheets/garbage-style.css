@@ -310,21 +310,3 @@ tr td:first-child {
 
 
 /* Mobil Responsive */
-
-@media screen and (max-width: 767px) {
-  .profilecomponent {
-    display: inline-block;
-    /*display: flex;*/
-    height: var(--profile-height);
-    padding: 20px 0;
-  }
-
-  .comment-section {
-    padding: 1em;
-    height: 20em;
-    overflow-y: scroll;
-    border: 1px solid var(--color-orange);
-    border-radius: 5px;
-    width: 100%;
-  }
-}
