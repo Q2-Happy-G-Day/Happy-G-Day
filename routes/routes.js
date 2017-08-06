@@ -13,6 +13,7 @@ const postNewUser = require('./post-new-user.js');
 const postNewComment = require('./post-new-comment.js');
 const updateUser = require('./update-user.js');
 const deleteComment = require('./delete-comment.js');
+const validateUser = require('./validate-user.js');
 
 // Router handling for server
 

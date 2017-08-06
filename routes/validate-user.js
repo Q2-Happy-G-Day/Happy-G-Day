@@ -1,6 +1,8 @@
 const validBirthday = require('../security/validation/valid-birthday.js');
 const validName = require('../security/validation/valid-name.js');
 const validPassword = require('../security/validation/valid-password');
+module.exports = (req, res) => {
+  
   if (!validBirthday(req.query.birthday)) {
     res.json({
       success: false,
@@ -19,7 +21,7 @@ const validPassword = require('../security/validation/valid-password');
   } else {
 
     res.json({
-      success: true;
+      success: true,
       message: 'You have successfuly signed up!'
     })
   }
