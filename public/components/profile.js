@@ -26,7 +26,7 @@ for (var i = 0; i < comments.length; i++) {
   $('#table-body').append(
   `<tr>
     <td><p class=“comment”>${comments[i].name}<br>${comments[i].message}</p></td>
-    <td><button class=“btn btn-default delete-button” type=“button” name=“deleteComment”>X</button></td>
+    <td><button class=“btn btn-default delete-button” type=“button” name=“deleteComment”>✖︎</button></td>
   </tr>`
     )
   }
@@ -37,27 +37,28 @@ for (var i = 0; i < comments.length; i++) {
 
 
 
-<tr>
-  <td><p class=“comment”>User Name <br>Happy Birthday!</p></td>
-  <td><button class=“btn btn-default delete-button” type=“button” name=“deleteComment”>X</button></td>
-</tr>
-<tr>
-  <td><p class=“comment”>User Name <br>Happy Birthday, Buddy!</p></td>
-  <td></td>
-</tr>
-<tr>
-  <td><p class=“comment”>User Name <br>Happy Birthday, my friend!</p></td>
-  <td><button class=“btn btn-default delete-button” type=“button” name=“deleteComment”>X</button></td>
-</tr>
-<tr>
-  <td><p class=“comment”>User Name <br>Happy Birthday!</p></td>
-  <td><button class=“btn btn-default delete-button” type=“button” name=“deleteComment”>X</button></td>
-</tr>
-<tr>
-  <td><p class=“comment”>User Name <br>Happy Birthday, Buddy!</p></td>
-  <td></td>
-</tr>
-<tr>
-  <td><p class=“comment”>User Name <br>Happy Birthday, my friend!</p></td>
-  <td><button class=“btn btn-default delete-button” type=“button” name=“deleteComment”>X</button></td>
-</tr>
+
+// <tr>
+//   <td><p class=“comment”>User Name <br>Happy Birthday!</p></td>
+//   <td><button class=“btn btn-default delete-button” type=“button” name=“deleteComment”>X</button></td>
+// </tr>
+// <tr>
+//   <td><p class=“comment”>User Name <br>Happy Birthday, Buddy!</p></td>
+//   <td></td>
+// </tr>
+// <tr>
+//   <td><p class=“comment”>User Name <br>Happy Birthday, my friend!</p></td>
+//   <td><button class=“btn btn-default delete-button” type=“button” name=“deleteComment”>X</button></td>
+// </tr>
+// <tr>
+//   <td><p class=“comment”>User Name <br>Happy Birthday!</p></td>
+//   <td><button class=“btn btn-default delete-button” type=“button” name=“deleteComment”>X</button></td>
+// </tr>
+// <tr>
+//   <td><p class=“comment”>User Name <br>Happy Birthday, Buddy!</p></td>
+//   <td></td>
+// </tr>
+// <tr>
+//   <td><p class=“comment”>User Name <br>Happy Birthday, my friend!</p></td>
+//   <td><button class=“btn btn-default delete-button” type=“button” name=“deleteComment”>X</button></td>
+// </tr>
