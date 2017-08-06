@@ -31,7 +31,7 @@ function profile(currUser, user, comments) {
 $('#profiles').append(profile)
 
   comments.forEach((e, i) => {
-    let deleteTemplate = `<button class=“btn btn-default delete-button” type=“button” name=“deleteComment”>X</button>`
+    let deleteTemplate = `<button class=“btn btn-default delete-button” type=“button” name=“deleteComment”>delete comment</button>`
     let deleteButton = currUser.name == comments[i].name ? deleteTemplate : '';
     let tableRow =
     `<tr>
