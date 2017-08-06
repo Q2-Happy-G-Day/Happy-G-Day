@@ -1,0 +1,23 @@
+Script started on Sat Aug  5 22:45:54 2017
+[1m[7m%[27m[1m[0m                                                                                ]2;matthewdrumheller@Matthews-MacBook-Air: ~/Documents/projects/q2/q2-group-project/Happy-G-Day/public]1;..-G-Day/public[0m[27m[24m[J[01;32m➜  [36mpublic[00m [01;34mgit:([31mproduction[34m) [33m✗[00m [K[?1h=[?2004hsscr
+[J[0mSCREEN_NO      [JSCRIPT         [Jscreen         [Jscreencapture  [Jscript       [J[A[0m[27m[24m[29Cscr[KSCREEN_NO[1m=[0m
+[J[7mSCREEN_NO    [0m  [JSCRIPT         [Jscreen         [Jscreencapture  [Jscript       [J[A[0m[27m[24m[29CSCREEN_NO[1m=[0m[K
+[7mSCREEN_NO    [0m  [7mSCREEN_NO    [0m  [A[0m[27m[24m[29CSCREEN_NO[1m=[0m[KIPT[1m=[0m  [0m 
+[15C[7mSCRIPT       [0m  SCREEN_NO      [A[0m[27m[24m[29CSCRIPT[1m=[0m[Kscreen[0m 
+[30C[7mscreen       [0m  [15CSCRIPT         [A[0m[27m[24m[29Cscreen[Kcapture
+[45C[7mscreencapture[0m  [30Cscreen         [A[0m[27m[24m[29Cscreencapture[K[10Dipt       
+[60C[7mscript       [0m[45Cscreencapture  [A[0m[27m[24m[29Cscript[K
+[J[A[35C[1m [0m[0m     s  lls[?1l>[?2004l
+[J]2;ls -G]1;ls[1m[36mbower_components[39;49m[0m index.html       [1m[36mscript[39;49m[0m
+[1m[36mcomponents[39;49m[0m       jj-profile.html  [1m[36mstylesheets[39;49m[0m
+[1m[36mimages[39;49m[0m           profile.js       typescript
+[1m[7m%[27m[1m[0m                                                                                ]2;matthewdrumheller@Matthews-MacBook-Air: ~/Documents/projects/q2/q2-group-project/Happy-G-Day/public]1;..-G-Day/public[0m[27m[24m[J[01;32m➜  [36mpublic[00m [01;34mgit:([31mproduction[34m) [33m✗[00m [K[?1h=[?2004hccd script[1m/[0m[0m [?1l>[?2004l
+]2;cd script]1;cd[1m[7m%[27m[1m[0m                                                                                ]2;matthewdrumheller@Matthews-MacBook-Air: ~/Documents/projects/q2/q2-group-project/Happy-G-Day/public/script]1;..public/script[0m[27m[24m[J[01;32m➜  [36mscript[00m [01;34mgit:([31mproduction[34m) [33m✗[00m [K[?1h=[?2004httouh  t  lls[?1l>[?2004l
+]2;ls -G]1;lsapp.js             get-comments.js    post-comments.js   update-users.js
+create-date.js     get-users.js       post-users.js
+delete-comments.js login.js           sign-up.js
+[1m[7m%[27m[1m[0m                                                                                ]2;matthewdrumheller@Matthews-MacBook-Air: ~/Documents/projects/q2/q2-group-project/Happy-G-Day/public/script]1;..public/script[0m[27m[24m[J[01;32m➜  [36mscript[00m [01;34mgit:([31mproduction[34m) [33m✗[00m [K[?1h=[?2004hccd ..[?1l>[?2004l
+]2;cd ..]1;cd[1m[7m%[27m[1m[0m                                                                                ]2;matthewdrumheller@Matthews-MacBook-Air: ~/Documents/projects/q2/q2-group-project/Happy-G-Day/public]1;..-G-Day/public[0m[27m[24m[J[01;32m➜  [36mpublic[00m [01;34mgit:([31mproduction[34m) [33m✗[00m [K[?1h=[?2004hccd components[1m/[0m[0m [?1l>[?2004l
+]2;cd components]1;cd[1m[7m%[27m[1m[0m                                                                                ]2;matthewdrumheller@Matthews-MacBook-Air: ~/Documents/projects/q2/q2-group-project/Happy-G-Day/public/components]1;..ic/components[0m[27m[24m[J[01;32m➜  [36mcomponents[00m [01;34mgit:([31mproduction[34m) [33m✗[00m [K[?1h=[?2004httouch comment-modal.js[?1l>[?2004l
+]2;touch comment-modal.js]1;touch[1m[7m%[27m[1m[0m                                                                                ]2;matthewdrumheller@Matthews-MacBook-Air: ~/Documents/projects/q2/q2-group-project/Happy-G-Day/public/components]1;..ic/components[0m[27m[24m[J[01;32m➜  [36mcomponents[00m [01;34mgit:([31mproduction[34m) [33m✗[00m [K[?1h=[?2004httouch delete -modal.js[?1l>[?2004l
+]2;touch delete-modal.js]1;touch[1m[7m%[27m[1m[0m                                                                                ]2;matthewdrumheller@Matthews-MacBook-Air: ~/Documents/projects/q2/q2-group-project/Happy-G-Day/public/components]1;..ic/components[0m[27m[24m[J[01;32m➜  [36mcomponents[00m [01;34mgit:([31mproduction[34m) [33m✗[00m [K[?1h=[?2004h

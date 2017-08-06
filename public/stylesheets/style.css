@@ -1,77 +1,91 @@
+/* body */
+
 body {
   padding: 50px;
-  font: 14px "Lemon Tuesday", Helvetica, Arial, sans-serif;
+  font: 14px 'Roboto', Helvetica, Arial, sans-serif;
+  --profile-height: 20em;
+  --tr-td-first-child-font-size: 1.5em;
+  --commentName: 0.75em;
+  --calendarMonth-margin: 20px 0;
+  --calendarMain-margin: 0 5%;
+  --calendarMonth-width: 200px;
+  --monthArt-height: 40px;
+  --persons-height: 170px;
+  --main-margin-bottom: 5%;
+  --my-2-margin-right: 10px;
+  --color-orange: #f2911f;
 }
 
-a {
-  color: #00B7FF;
+main {
+  margin-bottom: var(--main-margin-bottom);
 }
 
-#id{
-  mar
+button:hover {
+  cursor: pointer !important;
 }
+/* Header */
+
 .navbar-toggleable-md .navbar-collapse {
   width: auto !important;
 }
 
 .my-2 {
-  margin-right: 10px;
+  margin-right: var(--my-2-margin-right);
 }
 
 .m-logo {
   float: right;
 }
 .btn-outline-success {
-    color: #f2911f ;
+    color: var(--color-orange) ;
     background-image: none;
     background-color: transparent;
-    border-color: #f2911f ;
+    border-color: var(--color-orange) ;
 }
 
 .btn-outline-success:hover {
     color: #fff;
-    background-color: #f2911f ;
-    border-color: #f2911f ;
+    background-color: var(--color-orange) ;
+    border-color: var(--color-orange) ;
 }
 
 .form-group2 {
   display: inline-block !important;
 }
 
-element {
-  --profile-height: 15em;
-}
+/* Profile Box */
+
+
 .profilecomponent {
+  /*display: inline-block;*/
   display: flex;
-  height: var(--profile-height);
+  /*height: var(--profile-height);*/
+  padding: 20px 0;
+  height: auto;
 }
+
 .comment-section {
-  height: 100%;
   padding: 1em;
-  overflow: scroll;
-  border: 1px solid #F2911F;
+  height: 20em;
+  overflow-y: scroll;
+  border: 1px solid var(--color-orange);
   border-radius: 5px;
   width: 100%;
 }
+
 .comment-button {
-    color: #f2911f ;
+    color: var(--color-orange) ;
     background-image: none;
     background-color: transparent;
-    border-color: #f2911f ;
+    border-color: var(--color-orange) ;
 }
 
 .comment-button:hover {
     color: #fff;
-    background-color: #f2911f ;
-    border-color: #f2911f ;
+    background-color: var(--color-orange);
+    border-color: var(--color-orange);
 }
 
-.list-group-item {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  list-style-type: disc;
-}
 .comment {
   font-size: 1em;
   right: 2em;
@@ -83,65 +97,145 @@ element {
   padding: 3px;
   margin-right: 5px;
   margin-bottom: 10px;
-}
-
-.delete-button:hover {
-  cursor: pointer;
-}
-
-tbody tr > td {
-  text-align: center;
-}
-
-tbody tr > td:first-child {
-  text-align: left;
-}
-
-tbody > tr:nth-child(even) {
-  background-color: rgba(180, 180, 180, 0.5);
+  background-color: var(--color-orange)
 }
 
 table {
   width: 100%;
 }
 
-.profilebox {
-  height: var(--profile-height) !important;
+table td {
+  text-align: center;
 }
+
+table tr:nth-child(even){
+  background-color: rgba(180, 180, 180, 0.5);
+}
+
+tr td:first-child {
+  text-align: left;
+  font-size: var(--tr-td-first-child-font-size);
+}
+
+.commentName {
+  font-size: var(--commentName-font-size);
+}
+
+/* Calendar */
 
 .card {
   height: 100%;
 }
 
-#calendarBox {
-  margin-left: 12%;
+.calendarMain {
+  box-sizing: border-box;
+  width: 100%;
+  margin: var(--calendarMain-margin);
 }
 
-.content {
+.calendarMonth {
   float: left;
-  padding-top: 50px;
+  margin: var(--calendarMonth-margin);
 }
 
-.m1 {
-  background-image: image(../images/GDay.png);
-}
-
-.profiledate {
-  padding: 5px;
+.monthArt {
   text-align: center;
-  border: 1px solid #f2911f;
-  width: 200px;
-  height: 20%;
+  border: 1px solid var(--color-orange);
+  width: var(--calendarMonth-width);
+  height: var(--monthArt-height);
+  background-size: 100% 100%;
 }
 
 .persons {
   text-align: left;
   border: 1px solid #acacac;
-  width: 200px;
-  height: 170px;
+  width: var(--calendarMonth-width);
+  height: var(--persons-height);
 }
 
 .persons p {
   padding-top: 5px;
   padding-left: 10px;
+}
+
+/* calendar background images */
+
+.m1 {
+  /* January */
+  background-image: url('../images/GDay.png');
+}
+
+.m2 {
+  /* February */
+  background-image: url('../images/GDay.png');
+}
+
+.m3 {
+  /* March */
+  background-image: url('../images/GDay.png');
+}
+
+.m4 {
+  /* April */
+  background-image: url('../images/GDay.png');
+}
+
+.m5 {
+  /* May */
+  background-image: url('../images/GDay.png');
+}
+
+.m6 {
+  /* June */
+  background-image: url('../images/GDay.png');
+}
+
+.m7 {
+  /* July */
+  background-image: url('../images/GDay.png');
+}
+
+.m8 {
+  /* August */
+  background-image: url('../images/GDay.png');
+}
+
+.m9 {
+  /* September */
+  background-image: url('../images/GDay.png');
+}
+
+.m10 {
+  /* October */
+  background-image: url('../images/GDay.png');
+}
+.m11 {
+  /* November */
+  background-image: url('../images/GDay.png');
+}
+
+.m12 {
+  /* December */
+  background-image: url('../images/GDay.png');
+}
+
+
+/* Mobil Responsive */
+
+@media screen and (max-width: 767px) {
+  .profilecomponent {
+    display: inline-block;
+    /*display: flex;*/
+    height: var(--profile-height);
+    padding: 20px 0;
+  }
+
+  .comment-section {
+    padding: 1em;
+    height: 20em;
+    overflow-y: scroll;
+    border: 1px solid var(--color-orange);
+    border-radius: 5px;
+    width: 100%;
+  }
 }
