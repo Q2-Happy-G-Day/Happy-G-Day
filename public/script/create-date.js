@@ -1,3 +1,3 @@
-function createDate(string){
-  return `${string.slice(5,7)}/${string.slice(8,10)}/${string.slice(0,4)}`;
+function createDate(date){
+  return `${date.slice(5,7)}/${date.slice(8,10)}/${date.slice(0,4)}`;
 }
