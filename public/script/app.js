@@ -7,6 +7,8 @@ $(document).ready(() => {
 function inititiatePage(data) {
   $('#nav').append(nav);
   $('#modal').append(modal);
+  $('#commentModal').append(commentModal);
+  $('#deleteModal').append(deleteModal);
   var currUser = {
     id: 1,
     name: 'Matthew Drumheller'
@@ -54,9 +56,7 @@ function inititiatePage(data) {
     },
 
   ]
-  profile(currUser, user2, comments.reverse())
-  profile(currUser, user, comments.reverse())
-  calendar(data);
+
   $('footer').append(footer);
   $("#myBtn1").click(function(event) {
     event.preventDefault();
@@ -67,4 +67,14 @@ function inititiatePage(data) {
     $("#myModal2").modal();
   });
   $("#signUpButton").click(signUp)
+  $('#commentModalBtn').click(function(commentEvent){
+
+  });
+
+  $("#deleteModalBtn").click(function(deleteEvent){
+
+  })
+  profile(currUser, user2, comments.reverse())
+  profile(currUser, user, comments.reverse())
+  calendar(data);
 }

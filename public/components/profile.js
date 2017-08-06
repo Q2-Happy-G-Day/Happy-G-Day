@@ -16,7 +16,7 @@ function profile(currUser, user, comments) {
         <div class="card-block">
           <h4 class="card-title" data-idnumber="${user.id}">${user.name}</h4>
           <p class="card-text"><b>${user.birthday.slice(0,5)}</b></p>
-          <button type="button" class="btn btn-default comment-button button">Comment</button>
+          <button id="myCommentBtn${user.id}" type="button" class="btn btn-default comment-button button">Comment</button>
         </div>
       </div>
     </div>
@@ -29,16 +29,26 @@ function profile(currUser, user, comments) {
   </article>
   `
 $('#profiles').append(profile)
-
-  comments.forEach((e, i) => {
-    let deleteTemplate = `<button class=“btn btn-default delete-button” type=“button” name=“deleteComment”>delete comment</button>`
-    let deleteButton = currUser.name == comments[i].name ? deleteTemplate : '';
+$(`#myCommentBtn${user.id}`).click(function(event) {
+  event.preventDefault();
+  // pass user id and curruser id to the modal for the event handler
+  $("#myCommentModal").modal();
+});
+  comments.forEach((e) => {
+    let deleteTemplate = `<button id="myDeleteBtn${e.id}" class=“btn btn-default delete-button” type=“button” name=“deleteComment”>delete comment</button>`
+    let deleteButton = currUser.name == e.name ? deleteTemplate : '';
     let tableRow =
     `<tr>
-      <td><p class=“comment” data-idnumber="${comments[i].id}"><b class="commentName">${comments[i].name}</b><br>${comments[i].message}</p></td>
+      <td><p class=“comment” ><b class="commentName">${e.name}</b><br>${e.message}</p></td>
       <td>${deleteButton}</td>
     </tr>`
-    $(`#${userCodeName}table`).append(tableRow)
 
+    $(`#${userCodeName}table`).append(tableRow)
+    $(`#myDeleteBtn${e.id}`).click(function(event) {
+      event.preventDefault();
+      // pass comment id to the modal so that the event handler has access to it
+
+      $("#myDeleteModal").modal();
+    });
   })
 }
