@@ -65,6 +65,6 @@ function inititiatePage(data) {
   $("#myBtn2").click(function(event) {
     event.preventDefault();
     $("#myModal2").modal();
-    
   });
+  $("#signUpButton").click(signUp)
 }

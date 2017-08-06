@@ -25,6 +25,8 @@ router.post('/comments', postNewComment);
 router.put('/users/:id', updateUser);
 router.delete('/comments/:id', deleteComment);
 
+router.get('/validation', validateUser);
+
 //export router
 
 module.exports = router;

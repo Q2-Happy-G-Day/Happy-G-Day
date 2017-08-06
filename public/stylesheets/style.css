@@ -53,6 +53,9 @@ button:hover {
   display: inline-block !important;
 }
 
+.error {
+  visibility: hidden;
+}
 /* Profile Box */
 
 

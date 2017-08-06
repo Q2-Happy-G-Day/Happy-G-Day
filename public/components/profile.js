@@ -39,5 +39,6 @@ $('#profiles').append(profile)
       <td>${deleteButton}</td>
     </tr>`
     $(`#${userCodeName}table`).append(tableRow)
+
   })
 }

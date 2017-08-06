@@ -15,7 +15,7 @@ const modal = `
             </div>
             <div class="form-group">
               <label for="pwd">Birthday:</label>
-              <input type="date" class="form-control" placeholder="MM/DD/YYYY" required pattern="[0-9]{2}/[0-9]{2}/[0-9]{4}" value="" id="pwd">
+              <input type="date" class="form-control" placeholder="MM/DD/YYYY" required pattern="[0-9]{2}/[0-9]{2}/[0-9]{4}" value="" id="bday">
               </div>
             <div class="form-group">
               <label for="pwd">Password:</label>
@@ -23,7 +23,8 @@ const modal = `
             </div>
           </div>
           <div class="modal-footer">
-            <button type="submit" class="btn btn-outline-success my-2 my-sm-0" data-dismiss="modal">Submit</button>
+            <p class="error"></p>
+            <button id="signUpButton" type="submit" class="btn btn-outline-success my-2 my-sm-0" data-dismiss="modal">Submit</button>
           </div>
         </div>
       </div>
@@ -54,7 +55,7 @@ const modal = `
             </div>
           </div>
           <div class="modal-footer">
-            <button type="submit" class="btn btn-outline-success my-2 my-sm-0" data-dismiss="modal">Submit</button>
+            <button id="loginButton" type="submit" class="btn btn-outline-success my-2 my-sm-0" data-dismiss="modal">Submit</button>
           </div>
         </div>
       </div>
