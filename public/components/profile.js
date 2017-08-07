@@ -35,7 +35,7 @@ $(`#myCommentBtn${user.id}`).click(function(event) {
   $("#myCommentModal").modal();
 });
   comments.forEach((e) => {
-    let deleteTemplate = `<button id="myDeleteBtn${e.id}" class=“btn btn-default delete-button” type=“button” name=“deleteComment”>delete comment</button>`
+    let deleteTemplate = `<button id="myDeleteBtn${e.id}" class=“btn btn-default delete-button” type=“button” name=“deleteComment”>✖︎</button>`
     let deleteButton = currUser.name == e.name ? deleteTemplate : '';
     let tableRow =
     `<tr>

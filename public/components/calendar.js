@@ -1,12 +1,15 @@
 function calendar(users) {
+  
   for (var i = 1; i <= 12; i++) {
     let monthNames = [ "", "January", "February", "March", "April", "May", "June",
                       "July", "August", "September", "October", "November", "December" ];
-    let months =`<div id="calendarBox">
-                  <div class="content">
-                    <div id="month${i}" class="profiledate m${i}">
-                    </div>
-                    <div id="person${i}" class="persons">
+    let months =`<div id="center">
+                  <div id="calendarBox">
+                    <div class="content">
+                      <div id="month${i}" class="profiledate m${i}">
+                      </div>
+                      <div id="person${i}" class="persons">
+                      </div>
                     </div>
                   </div>
                 </div>`
