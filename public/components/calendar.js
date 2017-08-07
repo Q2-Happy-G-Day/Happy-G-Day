@@ -18,7 +18,7 @@ function calendar(users) {
     users.forEach((e) => {
       if (e.birthday.slice(0, 2) == i) {
         $(`#person${i}`)
-          .append(`<p>• ${e.birthday.slice(3, 5)} - ${e.name}</p>`)
+          .append(`<p>${e.birthday.slice(3, 5)} - ${e.name}</p>`)
       };
     });
   };

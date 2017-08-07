@@ -119,9 +119,9 @@ tr td:first-child {
 
 #calendar {
   text-align: center;
-  width: 80%;
+  width: 70%;
   height: 100%;
-  margin-left: 12%;
+  margin-left: 15%;
   padding-top: 40px;
   padding-bottom: 375px;
 }
@@ -184,7 +184,7 @@ tr td:first-child {
   padding: 10px;
   text-align: center;
   border: 1px solid var(--color-orange);
-  width: 200px;
+  width: 175px;
   height: 50px;
   background-repeat:no-repeat;
   background-position: center;
@@ -202,12 +202,13 @@ tr td:first-child {
   text-align: left;
   border: 1px solid #acacac;
   border-top: none;
-  width: 200px;
+  width: 175px;
   height: 100px;
   overflow: scroll;
 }
 
 .persons p {
+  font-size: 12px;
   margin-bottom: -3px;
   padding-top: 5px;
   padding-left: 10px;
