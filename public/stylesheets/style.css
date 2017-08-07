@@ -109,18 +109,27 @@ tr td:first-child {
   height: 100%;
 }
 
-#calendarBox {
+#center {
+  display: inline;
+
+}
+
+#calendar {
+  text-align: center;
+  width: 80%;
+  height: 100%;
   margin-left: 12%;
+  padding-top: 40px;
+  padding-bottom: 375px;
 }
 
 .content {
   float: left;
-  padding-top: 50px;
 }
 
 /* remove to go back to text */
 
-.m1 {
+/*.m1 {
   background:url(../images/jan.png);
 }
 
@@ -166,7 +175,7 @@ tr td:first-child {
 
 .m12 {
   background:url(../images/dec.png);
-}
+}*/
 
 .profiledate {
   padding: 10px;
@@ -182,16 +191,17 @@ tr td:first-child {
 
 /* remove to go back to text */
 
-.profiledate h4 {
+/*.profiledate h4 {
   visibility: hidden;
-}
+}*/
 
 .persons {
   text-align: left;
   border: 1px solid #acacac;
   border-top: none;
   width: 200px;
-  height: 170px;
+  height: 100px;
+  overflow: scroll;
 }
 
 .persons p {
@@ -217,4 +227,10 @@ tr td:first-child {
     border-radius: 5px;
     width: 100%;
   }
+}
+
+main {
+  display:block;
+  page-break-inside:avoid;
+  height: 50vh;
 }
