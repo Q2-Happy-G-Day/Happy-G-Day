@@ -38,6 +38,9 @@ body {
   display: inline-block !important;
 }
 
+.card {
+  border: 1px solid var(--color-orange)
+}
 /* Profile Box */
 
 .profilecomponent {
