@@ -1,46 +1,31 @@
-/* body */
-
 body {
   padding: 50px;
   font: 14px 'Roboto', Helvetica, Arial, sans-serif;
   --profile-height: 20em;
   --tr-td-first-child-font-size: 1.5em;
   --commentName: 0.75em;
-  --calendarMonth-margin: 20px 0;
-  --calendarMain-margin: 0 5%;
-  --calendarMonth-width: 200px;
-  --monthArt-height: 40px;
-  --persons-height: 170px;
-  --main-margin-bottom: 5%;
-  --my-2-margin-right: 10px;
   --color-orange: #f2911f;
+
 }
 
-main {
-  margin-bottom: var(--main-margin-bottom);
-}
-
-button:hover {
-  cursor: pointer !important;
-}
-/* Header */
+/* Navbar Header */
 
 .navbar-toggleable-md .navbar-collapse {
   width: auto !important;
 }
 
 .my-2 {
-  margin-right: var(--my-2-margin-right);
+  margin-right: 10px;
 }
 
 .m-logo {
   float: right;
 }
 .btn-outline-success {
-    color: var(--color-orange) ;
+    color: var(--color-orange);
     background-image: none;
     background-color: transparent;
-    border-color: var(--color-orange) ;
+    border-color: var(--color-orange);
 }
 
 .btn-outline-success:hover {
@@ -53,16 +38,10 @@ button:hover {
   display: inline-block !important;
 }
 
-.error {
-  visibility: hidden;
-}
 /* Profile Box */
 
-
 .profilecomponent {
-  /*display: inline-block;*/
   display: flex;
-  /*height: var(--profile-height);*/
   padding: 20px 0;
   height: auto;
 }
@@ -130,115 +109,81 @@ tr td:first-child {
   height: 100%;
 }
 
-.calendarMain {
-  box-sizing: border-box;
-  margin: var(--calendarMain-margin);
+#calendarBox {
+  margin-left: 12%;
 }
 
-.calendarMonth {
+.content {
   float: left;
-  margin: var(--calendarMonth-margin);
+  padding-top: 50px;
 }
 
 /*.m1 {
   background:url(../images/jan.png);
-    background-repeat:no-repeat;
-    background-position: center;
-    background-size: 90% 90%;
 }
 
 .m2 {
   background:url(../images/feb.png);
-    background-repeat:no-repeat;
-    background-position: center;
-    background-size: 90% 90%;
 }
 
 .m3 {
   background:url(../images/mar.png);
-    background-repeat:no-repeat;
-    background-position: center;
-    background-size: 60% 60%;
 }
 
 .m4 {
   background:url(../images/apr.png);
-    background-repeat:no-repeat;
-    background-position: center;
-    background-size: 60% 60%;
 }
 
 .m5 {
   background:url(../images/may.png);
-    background-repeat:no-repeat;
-    background-position: center;
-    background-size: 60% 60%;
 }
 
 .m6 {
   background:url(../images/jun.png);
-    background-repeat:no-repeat;
-    background-position: center;
-    background-size: 60% 60%;
 }
 
 .m7 {
   background:url(../images/jul.png);
-    background-repeat:no-repeat;
-    background-position: center;
-    background-size: 60% 60%;
 }
 
 .m8 {
   background:url(../images/aug.png);
-    background-repeat:no-repeat;
-    background-position: center;
-    background-size: 90% 90%;
 }
 
 .m9 {
   background:url(../images/sep.png);
-    background-repeat:no-repeat;
-    background-position: center;
-    background-size: 90% 90%;
 }
 
 .m10 {
   background:url(../images/oct.png);
-    background-repeat:no-repeat;
-    background-position: center;
-    background-size: 90% 90%;
 }
 
 .m11 {
   background:url(../images/nov.png);
-    background-repeat:no-repeat;
-    background-position: center;
-    background-size: 90% 90%;
 }
 
 .m12 {
   background:url(../images/dec.png);
-    background-repeat:no-repeat;
-    background-position: center;
-    background-size: 90% 90%;
 }*/
 
 .profiledate {
   padding: 10px;
   text-align: center;
-  border: 1px solid var(--color-orange);
-  width: var(--calendarMonth-width);
-  height: var(--monthArt-height);
+  border: 1px solid #f2911f;
+  width: 200px;
+  height: 50px;
+  background-repeat:no-repeat;
+  background-position: center;
   background-size: 90% 90%;
+
 }
 
 .persons {
   text-align: left;
   border: 1px solid #acacac;
   border-top: none;
-  width: var(--calendarMonth-width);
-  height: var(--persons-height);
+  width: 200px;
+  height: 170px;
 }
 
 .persons p {
@@ -247,12 +192,12 @@ tr td:first-child {
   padding-left: 10px;
 }
 
-/* Mobil Responsive */
+/* Mobile Responsive */
 
 @media screen and (max-width: 767px) {
   .profilecomponent {
     display: inline-block;
-    height: var(--profile-height);
+    height: 170px;
     padding: 20px 0;
   }
 
