@@ -112,22 +112,22 @@ tr td:first-child {
   height: 100%;
 }
 
-#center {
+.center {
   display: inline;
-
 }
 
 #calendar {
   text-align: center;
-  width: 70%;
-  height: 100%;
-  margin-left: 15%;
-  padding-top: 40px;
-  padding-bottom: 375px;
-}
+    max-width: 70%;
+    margin-left: 15%;
+    padding-top: 40px;
+    padding-bottom: 2em;
+    display: flex;
+    flex-wrap: wrap;
+  }
 
 .content {
-  float: left;
+  /*float: left;*/
 }
 
 /* remove to go back to text */
@@ -236,5 +236,4 @@ tr td:first-child {
 main {
   display:block;
   page-break-inside:avoid;
-  height: 50vh;
 }
