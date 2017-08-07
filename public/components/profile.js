@@ -40,7 +40,7 @@ $(`#myCommentBtn${user.id}`).click(function(event) {
     let deleteButton = currUser.name == e.name ? deleteTemplate : '';
     let tableRow =
     `<tr>
-      <td><p class=“comment” ><b class="commentName">${e.name}</b><br>${e.message}</p></td>
+      <td><p class=“comment” ><b class="commentName">${e.name}</b><br>${e.comment}</p></td>
       <td>${deleteButton}</td>
     </tr>`
 
