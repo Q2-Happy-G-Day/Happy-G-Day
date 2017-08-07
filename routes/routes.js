@@ -16,7 +16,7 @@ const deleteComment = require('./delete-comment.js');
 
 const validateUser = require('./validate-user.js');
 const validateComment = require('./validate-comment.js');
-
+const webToken = require('./web-token.js');
 // Router handling for server
 
 router.get('/users', getAllUsers);
@@ -30,6 +30,7 @@ router.delete('/comments/:id', deleteComment);
 
 router.post('/validate/comment', validateComment)
 router.post('/validate/user', validateUser);
+router.post('/login/:id', webToken);
 
 //export router
 
