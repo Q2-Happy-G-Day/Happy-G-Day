@@ -1,7 +1,7 @@
 
 const express = require('express');
 const postNewUser = require('../db/queries.js').postNewUser
-// const encrypt = require('../security/encrypt/encrypt.js')
+const encrypt = require('../security/encrypt/encrypt.js')
 //postNewUser
 
 module.exports = (req, res) => {
@@ -9,7 +9,7 @@ module.exports = (req, res) => {
   let newUser = {
     name: req.body.name,
     birthday: req.body.birthday,
-    // password: encrypt(req.body.password)
+    password: encrypt(req.body.password)
   }
   postNewUser(req.body).then((data) => {
     res.json({
