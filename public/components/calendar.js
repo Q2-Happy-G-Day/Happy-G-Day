@@ -11,14 +11,13 @@ function calendar(users) {
                       </div>
                     </div>
                   </div>
-                </div>
-                <div style="height 400px;"></div>`
+                </div>`
     $('#calendar').append(months)
     $(`#month${i}`).append(`<h4>${monthNames[i]}</h4>`)
     users.forEach((e) => {
       if (e.birthday.slice(0, 2) == i) {
         $(`#person${i}`)
-          .append(`<p>• ${e.birthday.slice(3, 5)} - ${e.name}</p>`)
+          .append(`<p>${e.birthday.slice(3, 5)} - ${e.name}</p>`)
       };
     });
   };
