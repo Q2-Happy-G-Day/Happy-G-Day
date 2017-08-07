@@ -14,7 +14,7 @@ module.exports = {
   getAllCommentsById: (id) => {
     return knex('comment')
       .select('comment.id', 'user.name', 'comment.comment')
-      .join('user', 'comment.birthday_user_id' , '=', 'user.id')
+      .join('user', 'comment.comment_user_id' , '=', 'user.id')
       .where('comment.birthday_user_id', id)
   },
   postNewUser: (user) => {
