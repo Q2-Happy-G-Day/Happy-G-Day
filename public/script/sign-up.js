@@ -1,20 +1,24 @@
 function signUp(event) {
   event.preventDefault();
-  let name = $('#usr').val();
-  let bday = createDate($('#bday').val());
-  let pwd = $('#pwd').val();
-  $.get(`${url}/vaidation?name=${name}&birthday=${bday}&password=${pwd}`).then(validateUser)
-  showSignUpError('ERROR: ');
+  let newUser = {
+    name: $('#usr').val(),
+    birthday: createDate($('#bday').val()),
+    password: $('#pwd').val()
+  }
+  console.log(newUser.name.length);
+  $.post(`${url}/validate/user`, newUser).then(validateUser)
+}
+
+function validateUser(data) {
+  if(data.succes == true){
+    $('#myModal').modal('hide')
+
+  } else {
+    showSignUpError(data.message);
+  }
 }
 
 function showSignUpError(error){
-  $('#myModal').modal('show')
-  $('.error').empty().append(error)
-  $('.error').css('visibility', 'visible');
-}
-
-function validateUser(data){
-  if (message === true) {
-    postUser(data.user);
-  }
+  $('.signUpError').empty().append(error)
+  $('.signUpError').css('visibility', 'visible');
 }

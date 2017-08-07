@@ -23,8 +23,8 @@ const modal = `
             </div>
           </div>
           <div class="modal-footer">
-            <p class="error"></p>
-            <button id="signUpButton" type="submit" class="btn btn-outline-success my-2 my-sm-0" data-dismiss="modal">Submit</button>
+            <p class="signUpError"></p>
+            <button id="signUpButton" type="button" class="btn btn-outline-success my-2 my-sm-0">Submit</button>
           </div>
         </div>
       </div>
@@ -55,7 +55,8 @@ const modal = `
             </div>
           </div>
           <div class="modal-footer">
-            <button id="loginButton" type="submit" class="btn btn-outline-success my-2 my-sm-0" data-dismiss="modal">Submit</button>
+            <p class="logInError"></p>
+            <button id="loginButton" type="button" class="btn btn-outline-success my-2 my-sm-0">Submit</button>
           </div>
         </div>
       </div>

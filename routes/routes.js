@@ -13,7 +13,9 @@ const postNewUser = require('./post-new-user.js');
 const postNewComment = require('./post-new-comment.js');
 const updateUser = require('./update-user.js');
 const deleteComment = require('./delete-comment.js');
+
 const validateUser = require('./validate-user.js');
+const validateComment = require('./validate-comment.js');
 
 // Router handling for server
 
@@ -26,7 +28,8 @@ router.post('/comments', postNewComment);
 router.put('/users/:id', updateUser);
 router.delete('/comments/:id', deleteComment);
 
-router.get('/validation', validateUser);
+router.post('/validate/comment', validateComment)
+router.post('/validate/user', validateUser);
 
 //export router
 

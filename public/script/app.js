@@ -1,7 +1,7 @@
-const url = '/api/v1/users';
+const url = '/api/v1';
 
 $(document).ready(() => {
-  $.get(url).then(inititiatePage);
+  $.get(url + '/users').then(inititiatePage);
 });
 
 function inititiatePage(data) {
@@ -60,10 +60,14 @@ function inititiatePage(data) {
   $('footer').append(footer);
   $("#myBtn1").click(function(event) {
     event.preventDefault();
+    $('.signUpError').empty();
+    $('.signUpError').css('visibility', 'hidden');
     $("#myModal").modal();
   })
   $("#myBtn2").click(function(event) {
     event.preventDefault();
+    $('.logInError').empty();
+    $('.logInError').css('visibility', 'hidden');
     $("#myModal2").modal();
   });
   $("#signUpButton").click(signUp)

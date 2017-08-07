@@ -1,6 +1,6 @@
 module.exports = (name) => {
   return (
-    typeof name === 'string' &&
-    !(/[^A-Za-z ]/g).test(name)
+    name.length > 0 &&
+    (/[^\w]/g).test(password) &&
   )
 }
