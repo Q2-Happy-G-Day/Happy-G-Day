@@ -11,8 +11,11 @@ module.exports = {
   getAllComments: () => {
     return knex('comment');
   },
-  getOneComment: (id) => {
-    return knex('comment').where('id', id);
+  getAllCommentsById: (id) => {
+    return knex('comment')
+      .select('comment.id', 'user.name', 'comment.comment')
+      .join('user', 'comment.birthday_user_id' , '=', 'user.id')
+      .where('comment.birthday_user_id', id)
   },
   postNewUser: (user) => {
     return knex('user').insert(user).returning('*');

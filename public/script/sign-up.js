@@ -12,7 +12,7 @@ function signUp(event) {
 function validateUser(data) {
   if(data.succes == true){
     $('#myModal').modal('hide')
-
+    logIn(data.user);
   } else {
     showSignUpError(data.message);
   }
