@@ -9,7 +9,6 @@ function profile(currUser, user, comments) {
   let profile =
   `<article class="profilecomponent">
     <div class="panel panel-primary col-xs-2 col-md-3 profilebox">
-      <div class="card text-center">
         <div class="card-header">
           <h4>${header}</h4>
         </div>

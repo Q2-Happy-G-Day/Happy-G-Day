@@ -8,6 +8,7 @@ body {
 
 }
 
+
 /* Navbar Header */
 
 .navbar-toggleable-md .navbar-collapse {
@@ -101,7 +102,6 @@ tr td:first-child {
   text-align: left;
   font-size: var(--tr-td-first-child-font-size);
 }
-
 .commentName {
   font-size: var(--commentName-font-size);
 }
