@@ -15,6 +15,7 @@ const commentModal = `
             </div>
           </div>
           <div class="modal-footer">
+            <div id="commentModalId"></div>
             <button id="commentModalBtn" data-currUserId="" type="submit" class="btn btn-outline-success my-2 my-sm-0" data-dismiss="modal">Submit</button>
           </div>
         </div>
