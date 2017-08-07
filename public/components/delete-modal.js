@@ -12,6 +12,7 @@ const deleteModal = `
             <p>Do you really want delete this comment?</p>
           </div>
           <div class="modal-footer">
+            <div id="deleteModalId" > </div>
             <button id="deleteModalBtn" type="submit" class="btn btn-outline-success my-2 my-sm-0" data-dismiss="modal">Delete</button>
           </div>
         </div>

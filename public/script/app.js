@@ -72,11 +72,14 @@ function inititiatePage(data) {
   });
   $("#signUpButton").click(signUp)
   $('#commentModalBtn').click(function(commentEvent){
-
+    let comment = $('#comment').val();
+    let birthday_user_id = $('#newCommentId').data('profileUser');
+    let comment_user_id = $('#newCommentId').data('currUser');
+    postComments(comment, birthday_user_id, comment_user_id)
   });
 
   $("#deleteModalBtn").click(function(deleteEvent){
-
+    deleteComment($('#commentId').data('commentIdNumber'))
   })
   profile(currUser, user2, comments.reverse())
   profile(currUser, user, comments.reverse())

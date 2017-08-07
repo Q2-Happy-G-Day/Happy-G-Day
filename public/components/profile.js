@@ -32,6 +32,7 @@ $('#profiles').append(profile)
 $(`#myCommentBtn${user.id}`).click(function(event) {
   event.preventDefault();
   // pass user id and curruser id to the modal for the event handler
+  $("#commentModalId").empty().append(`<p id="newCommentId" data-profileUser="${user.id}" data-currUser="${localStorage.getItem('currUser')}"</p>`)
   $("#myCommentModal").modal();
 });
   comments.forEach((e) => {
@@ -47,7 +48,7 @@ $(`#myCommentBtn${user.id}`).click(function(event) {
     $(`#myDeleteBtn${e.id}`).click(function(event) {
       event.preventDefault();
       // pass comment id to the modal so that the event handler has access to it
-
+      $('#deleteModalId').empty().append(`<p id="commentId" data-commentIdNumber="${e.id}">${e.id}</p>`)
       $("#myDeleteModal").modal();
     });
   })
