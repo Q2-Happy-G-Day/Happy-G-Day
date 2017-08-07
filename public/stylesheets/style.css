@@ -115,6 +115,7 @@ tr td:first-child {
 
 .content {
   float: left;
+  /*display: block;*/
   padding-top: 50px;
 }
 

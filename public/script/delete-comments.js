@@ -1,3 +1,3 @@
-function deleteComment(event){
+function deleteComment(id){
 
 }
