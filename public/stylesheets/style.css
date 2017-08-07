@@ -5,7 +5,6 @@ body {
   --tr-td-first-child-font-size: 1.5em;
   --commentName: 0.75em;
   --color-orange: #f2911f;
-
 }
 
 /* Navbar Header */
@@ -114,20 +113,20 @@ tr td:first-child {
 
 #center {
   display: inline;
-
 }
 
 #calendar {
   text-align: center;
-  width: 70%;
-  height: 100%;
+  max-width: 70%;
   margin-left: 15%;
   padding-top: 40px;
-  padding-bottom: 375px;
+  padding-bottom: 2em;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .content {
-  float: left;
+  /*float: left;*/
 }
 
 /* remove to go back to text */
@@ -236,5 +235,5 @@ tr td:first-child {
 main {
   display:block;
   page-break-inside:avoid;
-  height: 50vh;
+  /*height: 50vh;*/
 }

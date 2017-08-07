@@ -53,3 +53,12 @@ $(`#myCommentBtn${user.id}`).click(function(event) {
     });
   })
 }
+
+
+
+
+var today = newDate();
+var bday = new Date(`${user.birthday.slice(0,6)}/${new Date().getFullYear()}`)
+if (bday - today < 0 ) {
+  var nextBday = `${user.birthday.slcie(0,6)}/${new Date().getFullYear() +1}`
+}
