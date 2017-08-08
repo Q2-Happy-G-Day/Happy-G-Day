@@ -1,0 +1,1124 @@
+Script started on Tue Aug  8 15:00:03 2017
+[1m[7m%[27m[1m[0m                                                                                                                                                              ]2;jose@MacBook-Pro-de-Jose: ~/workspace/playground/week-8/Happy-G-Day/public]1;..-G-Day/public[0m[27m[24m[J[39m[0m[49m[44m[30m ~/workspace/playground/week-8/Happy-G-Day/public [43m[34m[30m  jj-dev-08-2 ● [49m[33m[39m [K[?1h=[?2004hccd script[?1l>[?2004l
+]2;cd script]1;cd[1m[7m%[27m[1m[0m                                                                                                                                                              ]2;jose@MacBook-Pro-de-Jose: ~/workspace/playground/week-8/Happy-G-Day/public/script]1;..public/script[0m[27m[24m[J[39m[0m[49m[44m[30m ~/workspace/playground/week-8/Happy-G-Day/public/script [43m[34m[30m  jj-dev-08-2 ● [49m[33m[39m [K[?1h=[?2004hlls[?1l>[?2004l
+]2;ls -G]1;lsapp.js             delete-comments.js login.js           post-users.js      update-users.js
+create-date.js     get-comments.js    post-comments.js   sign-up.js         verify.js
+[1m[7m%[27m[1m[0m                                                                                                                                                              ]2;jose@MacBook-Pro-de-Jose: ~/workspace/playground/week-8/Happy-G-Day/public/script]1;..public/script[0m[27m[24m[J[39m[0m[49m[44m[30m ~/workspace/playground/week-8/Happy-G-Day/public/script [43m[34m[30m  jj-dev-08-2 ● [49m[33m[39m [K[?1h=[?2004httouch updade-comment.  ts.js[P[13C [14Dte-comments.js[13D[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[?1l>[?2004l
+]2;touch update-comments.js]1;touch[1m[7m%[27m[1m[0m                                                                                                                                                              ]2;jose@MacBook-Pro-de-Jose: ~/workspace/playground/week-8/Happy-G-Day/public/script]1;..public/script[0m[27m[24m[J[39m[0m[49m[44m[30m ~/workspace/playground/week-8/Happy-G-Day/public/script [43m[34m[30m  jj-dev-08-2 ● [49m[33m[39m [K[?1h=[?2004hccd ..[?1l>[?2004l
+]2;cd ..]1;cd[1m[7m%[27m[1m[0m                                                                                                                                                              ]2;jose@MacBook-Pro-de-Jose: ~/workspace/playground/week-8/Happy-G-Day/public]1;..-G-Day/public[0m[27m[24m[J[39m[0m[49m[44m[30m ~/workspace/playground/week-8/Happy-G-Day/public [43m[34m[30m  jj-dev-08-2 ● [49m[33m[39m [K[?1h=[?2004hccd ..[?1l>[?2004l
+]2;cd ..]1;cd[1m[7m%[27m[1m[0m                                                                                                                                                              ]2;jose@MacBook-Pro-de-Jose: ~/workspace/playground/week-8/Happy-G-Day]1;..8/Happy-G-Day[0m[27m[24m[J[39m[0m[49m[44m[30m ~/workspace/playground/week-8/Happy-G-Day [43m[34m[30m  jj-dev-08-2 ● [49m[33m[39m [K[?1h=[?2004hnnpm start[?1l>[?2004l
+]2;npm start]1;npm
+> happy-g-day@0.0.0 start /Users/jose/workspace/playground/week-8/Happy-G-Day
+> node ./bin/www
+
+[0mGET / [36m304 [0m7.679 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.494 ms - -[0m
+[0mGET /components/modal.js [36m304 [0m1.446 ms - -[0m
+[0mGET /components/nav.js [36m304 [0m1.866 ms - -[0m
+[0mGET /components/footer.js [36m304 [0m1.513 ms - -[0m
+[0mGET /components/calendar.js [36m304 [0m1.447 ms - -[0m
+[0mGET /components/profile.js [36m304 [0m1.466 ms - -[0m
+[0mGET /components/comment-modal.js [36m304 [0m0.485 ms - -[0m
+[0mGET /components/delete-modal.js [36m304 [0m0.433 ms - -[0m
+[0mGET /script/app.js [36m304 [0m1.813 ms - -[0m
+[0mGET /script/create-date.js [36m304 [0m1.779 ms - -[0m
+[0mGET /script/delete-comments.js [36m304 [0m1.618 ms - -[0m
+[0mGET /script/get-comments.js [36m304 [0m1.610 ms - -[0m
+[0mGET /script/post-comments.js [36m304 [0m0.957 ms - -[0m
+[0mGET /script/post-users.js [36m304 [0m4.189 ms - -[0m
+[0mGET /script/update-users.js [36m304 [0m2.048 ms - -[0m
+[0mGET /script/sign-up.js [36m304 [0m1.593 ms - -[0m
+[0mGET /script/login.js [36m304 [0m0.797 ms - -[0m
+[0mGET /script/verify.js [36m304 [0m3.154 ms - -[0m
+[0mGET /api/v1/users [36m304 [0m23.145 ms - -[0m
+[0mGET /images/GDay%20Logo.png [36m304 [0m0.502 ms - -[0m
+[0mGET /images/GDay.png [36m304 [0m0.383 ms - -[0m
+[0mPOST /api/v1/verify [32m200 [0m27.481 ms - 262[0m
+[0mGET /api/v1/comments/1 [36m304 [0m17.291 ms - -[0m
+[0mGET /api/v1/comments/17 [36m304 [0m8.735 ms - -[0m
+[0mGET / [32m200 [0m4.293 ms - 2826[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.537 ms - -[0m
+[0mGET /components/modal.js [36m304 [0m0.416 ms - -[0m
+[0mGET /components/nav.js [36m304 [0m0.938 ms - -[0m
+[0mGET /components/footer.js [36m304 [0m1.243 ms - -[0m
+[0mGET /components/calendar.js [36m304 [0m1.457 ms - -[0m
+[0mGET /components/profile.js [36m304 [0m0.423 ms - -[0m
+[0mGET /components/comment-modal.js [36m304 [0m1.206 ms - -[0m
+[0mGET /components/delete-modal.js [36m304 [0m0.386 ms - -[0m
+[0mGET /script/app.js [36m304 [0m2.377 ms - -[0m
+[0mGET /script/create-date.js [36m304 [0m2.346 ms - -[0m
+[0mGET /script/delete-comments.js [36m304 [0m1.271 ms - -[0m
+[0mGET /script/get-comments.js [36m304 [0m0.781 ms - -[0m
+[0mGET /script/post-comments.js [36m304 [0m0.799 ms - -[0m
+[0mGET /script/post-users.js [36m304 [0m0.386 ms - -[0m
+[0mGET /script/update-users.js [36m304 [0m0.431 ms - -[0m
+[0mGET /script/sign-up.js [36m304 [0m2.901 ms - -[0m
+[0mGET /script/login.js [36m304 [0m1.036 ms - -[0m
+[0mGET /script/verify.js [36m304 [0m1.386 ms - -[0m
+[0mGET /script/update-comments.js [32m200 [0m1.423 ms - 219[0m
+[0mGET /api/v1/users [36m304 [0m4.290 ms - -[0m
+[0mGET /images/GDay%20Logo.png [36m304 [0m0.453 ms - -[0m
+[0mGET /images/GDay.png [36m304 [0m0.352 ms - -[0m
+[0mPOST /api/v1/verify [32m200 [0m1.332 ms - 262[0m
+[0mGET /api/v1/comments/1 [36m304 [0m5.730 ms - -[0m
+[0mGET /api/v1/comments/17 [36m304 [0m3.273 ms - -[0m
+[0mGET / [36m304 [0m0.605 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m2.137 ms - -[0m
+[0mGET /components/modal.js [36m304 [0m1.857 ms - -[0m
+[0mGET /components/nav.js [36m304 [0m1.224 ms - -[0m
+[0mGET /components/footer.js [36m304 [0m1.504 ms - -[0m
+[0mGET /components/calendar.js [36m304 [0m0.439 ms - -[0m
+[0mGET /components/profile.js [36m304 [0m0.826 ms - -[0m
+[0mGET /components/comment-modal.js [36m304 [0m0.789 ms - -[0m
+[0mGET /script/app.js [36m304 [0m0.385 ms - -[0m
+[0mGET /components/delete-modal.js [36m304 [0m2.571 ms - -[0m
+[0mGET /script/create-date.js [36m304 [0m2.070 ms - -[0m
+[0mGET /script/delete-comments.js [36m304 [0m2.224 ms - -[0m
+[0mGET /script/get-comments.js [36m304 [0m2.246 ms - -[0m
+[0mGET /script/post-comments.js [36m304 [0m0.365 ms - -[0m
+[0mGET /script/post-users.js [36m304 [0m10.735 ms - -[0m
+[0mGET /script/update-users.js [36m304 [0m3.171 ms - -[0m
+[0mGET /script/sign-up.js [36m304 [0m2.868 ms - -[0m
+[0mGET /script/login.js [36m304 [0m2.099 ms - -[0m
+[0mGET /script/verify.js [36m304 [0m2.348 ms - -[0m
+[0mGET /script/update-comments.js [32m200 [0m4.056 ms - 220[0m
+[0mGET /api/v1/users [36m304 [0m2.457 ms - -[0m
+[0mGET /images/GDay%20Logo.png [36m304 [0m0.463 ms - -[0m
+[0mGET /images/GDay.png [36m304 [0m0.434 ms - -[0m
+[0mPOST /api/v1/verify [32m200 [0m1.111 ms - 262[0m
+[0mGET /api/v1/comments/1 [36m304 [0m2.320 ms - -[0m
+[0mGET /api/v1/comments/17 [36m304 [0m2.707 ms - -[0m
+[0mPUT /api/v1/comment/37 [31m500 [0m115.759 ms - 2213[0m
+[0mGET / [36m304 [0m0.456 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m2.336 ms - -[0m
+[0mGET /components/modal.js [36m304 [0m1.967 ms - -[0m
+[0mGET /components/nav.js [36m304 [0m1.962 ms - -[0m
+[0mGET /components/footer.js [36m304 [0m2.566 ms - -[0m
+[0mGET /components/calendar.js [36m304 [0m2.473 ms - -[0m
+[0mGET /components/profile.js [36m304 [0m2.453 ms - -[0m
+[0mGET /components/comment-modal.js [36m304 [0m0.419 ms - -[0m
+[0mGET /components/delete-modal.js [36m304 [0m0.415 ms - -[0m
+[0mGET /script/app.js [36m304 [0m1.423 ms - -[0m
+[0mGET /script/create-date.js [36m304 [0m1.507 ms - -[0m
+[0mGET /script/delete-comments.js [36m304 [0m1.996 ms - -[0m
+[0mGET /script/get-comments.js [36m304 [0m4.106 ms - -[0m
+[0mGET /script/post-comments.js [36m304 [0m5.968 ms - -[0m
+[0mGET /script/post-users.js [36m304 [0m2.058 ms - -[0m
+[0mGET /script/update-users.js [36m304 [0m4.600 ms - -[0m
+[0mGET /script/sign-up.js [36m304 [0m4.195 ms - -[0m
+[0mGET /script/login.js [36m304 [0m2.697 ms - -[0m
+[0mGET /script/verify.js [36m304 [0m2.548 ms - -[0m
+[0mGET /script/update-comments.js [36m304 [0m0.957 ms - -[0m
+[0mGET /api/v1/users [36m304 [0m3.994 ms - -[0m
+[0mGET /images/GDay%20Logo.png [36m304 [0m1.389 ms - -[0m
+[0mGET /images/GDay.png [36m304 [0m0.433 ms - -[0m
+[0mPOST /api/v1/verify [32m200 [0m1.027 ms - 262[0m
+[0mGET /api/v1/comments/1 [36m304 [0m5.382 ms - -[0m
+[0mGET /api/v1/comments/17 [36m304 [0m5.990 ms - -[0m
+[0mPUT /api/v1/comment/37 [31m500 [0m6.467 ms - 2213[0m
+[0mGET / [36m304 [0m0.293 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m3.164 ms - -[0m
+[0mGET /components/modal.js [36m304 [0m1.339 ms - -[0m
+[0mGET /components/nav.js [36m304 [0m0.845 ms - -[0m
+[0mGET /components/footer.js [36m304 [0m3.611 ms - -[0m
+[0mGET /components/calendar.js [36m304 [0m0.797 ms - -[0m
+[0mGET /components/profile.js [36m304 [0m0.754 ms - -[0m
+[0mGET /components/comment-modal.js [36m304 [0m1.096 ms - -[0m
+[0mGET /components/delete-modal.js [36m304 [0m1.455 ms - -[0m
+[0mGET /script/app.js [36m304 [0m1.488 ms - -[0m
+[0mGET /script/create-date.js [36m304 [0m1.670 ms - -[0m
+[0mGET /script/delete-comments.js [36m304 [0m1.216 ms - -[0m
+[0mGET /script/get-comments.js [36m304 [0m1.202 ms - -[0m
+[0mGET /script/post-comments.js [36m304 [0m1.123 ms - -[0m
+[0mGET /script/post-users.js [36m304 [0m0.886 ms - -[0m
+[0mGET /script/update-users.js [36m304 [0m0.904 ms - -[0m
+[0mGET /script/sign-up.js [36m304 [0m0.929 ms - -[0m
+[0mGET /script/login.js [36m304 [0m0.942 ms - -[0m
+[0mGET /script/verify.js [36m304 [0m3.680 ms - -[0m
+[0mGET /script/update-comments.js [36m304 [0m2.812 ms - -[0m
+[0mGET /api/v1/users [36m304 [0m3.279 ms - -[0m
+[0mGET /images/GDay%20Logo.png [36m304 [0m0.340 ms - -[0m
+[0mGET /images/GDay.png [36m304 [0m0.713 ms - -[0m
+[0mPOST /api/v1/verify [32m200 [0m2.189 ms - 262[0m
+[0mGET /api/v1/comments/1 [36m304 [0m3.738 ms - -[0m
+[0mGET /api/v1/comments/17 [36m304 [0m5.763 ms - -[0m
+[0mPUT /api/v1/comment/37 [31m500 [0m8.317 ms - 2213[0m
+[0mGET / [36m304 [0m0.309 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.911 ms - -[0m
+[0mGET /components/modal.js [36m304 [0m2.469 ms - -[0m
+[0mGET /components/nav.js [36m304 [0m2.513 ms - -[0m
+[0mGET /components/footer.js [36m304 [0m2.456 ms - -[0m
+[0mGET /components/calendar.js [36m304 [0m2.425 ms - -[0m
+[0mGET /components/profile.js [36m304 [0m0.613 ms - -[0m
+[0mGET /components/comment-modal.js [36m304 [0m4.968 ms - -[0m
+[0mGET /components/delete-modal.js [36m304 [0m5.456 ms - -[0m
+[0mGET /script/app.js [36m304 [0m5.596 ms - -[0m
+[0mGET /script/create-date.js [36m304 [0m5.643 ms - -[0m
+[0mGET /script/delete-comments.js [36m304 [0m5.228 ms - -[0m
+[0mGET /script/get-comments.js [36m304 [0m5.183 ms - -[0m
+[0mGET /script/post-comments.js [36m304 [0m8.332 ms - -[0m
+[0mGET /script/post-users.js [36m304 [0m0.383 ms - -[0m
+[0mGET /script/sign-up.js [36m304 [0m1.974 ms - -[0m
+[0mGET /script/update-users.js [36m304 [0m0.488 ms - -[0m
+[0mGET /script/login.js [36m304 [0m1.219 ms - -[0m
+[0mGET /script/verify.js [36m304 [0m1.371 ms - -[0m
+[0mGET /script/update-comments.js [36m304 [0m1.518 ms - -[0m
+[0mGET /api/v1/users [36m304 [0m4.381 ms - -[0m
+[0mGET /images/GDay%20Logo.png [36m304 [0m0.316 ms - -[0m
+[0mGET /images/GDay.png [36m304 [0m0.279 ms - -[0m
+[0mPOST /api/v1/verify [32m200 [0m0.667 ms - 262[0m
+[0mGET /api/v1/comments/1 [36m304 [0m4.103 ms - -[0m
+[0mGET /api/v1/comments/17 [36m304 [0m5.910 ms - -[0m
+[0mPUT /api/v1/comment/37 [31m500 [0m2.939 ms - 2213[0m
+^C
+[1m[7m%[27m[1m[0m                                                                                                                                                              ]2;jose@MacBook-Pro-de-Jose: ~/workspace/playground/week-8/Happy-G-Day]1;..8/Happy-G-Day[0m[27m[24m[J[39m[0m[49m[40m[39m [31m✘ [44m[30m[30m ~/workspace/playground/week-8/Happy-G-Day [43m[34m[30m  jj-dev-08-2 ● [49m[33m[39m [K[?1h=[?2004hnpm start      n nodemon[?1l>[?2004l
+]2;nodemon]1;nodemon[33m[nodemon] 1.11.0[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching: *.*[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+[0mGET / [36m304 [0m8.521 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m4.399 ms - -[0m
+[0mGET /components/modal.js [36m304 [0m3.643 ms - -[0m
+[0mGET /components/nav.js [36m304 [0m1.369 ms - -[0m
+[0mGET /components/footer.js [36m304 [0m1.366 ms - -[0m
+[0mGET /components/calendar.js [36m304 [0m1.381 ms - -[0m
+[0mGET /components/profile.js [36m304 [0m1.415 ms - -[0m
+[0mGET /components/comment-modal.js [36m304 [0m1.182 ms - -[0m
+[0mGET /components/delete-modal.js [36m304 [0m0.474 ms - -[0m
+[0mGET /script/app.js [36m304 [0m0.409 ms - -[0m
+[0mGET /script/create-date.js [36m304 [0m1.604 ms - -[0m
+[0mGET /script/delete-comments.js [36m304 [0m2.396 ms - -[0m
+[0mGET /script/get-comments.js [36m304 [0m3.047 ms - -[0m
+[0mGET /script/post-comments.js [36m304 [0m0.584 ms - -[0m
+[0mGET /script/post-users.js [36m304 [0m1.338 ms - -[0m
+[0mGET /script/update-users.js [36m304 [0m0.609 ms - -[0m
+[0mGET /script/sign-up.js [36m304 [0m2.230 ms - -[0m
+[0mGET /script/login.js [36m304 [0m2.146 ms - -[0m
+[0mGET /script/verify.js [36m304 [0m1.536 ms - -[0m
+[0mGET /script/update-comments.js [36m304 [0m1.195 ms - -[0m
+[0mGET /api/v1/users [36m304 [0m20.608 ms - -[0m
+[0mGET /images/GDay%20Logo.png [36m304 [0m0.435 ms - -[0m
+[0mGET /images/GDay.png [36m304 [0m0.386 ms - -[0m
+[0mPOST /api/v1/verify [32m200 [0m20.248 ms - 262[0m
+[0mGET /api/v1/comments/1 [36m304 [0m16.490 ms - -[0m
+[0mGET /api/v1/comments/17 [36m304 [0m4.489 ms - -[0m
+37
+ssss
+[31mUnhandled rejection error: syntax error at or near "where"
+    at Connection.parseE (/Users/jose/workspace/playground/week-8/Happy-G-Day/node_modules/pg/lib/connection.js:546:11)
+    at Connection.parseMessage (/Users/jose/workspace/playground/week-8/Happy-G-Day/node_modules/pg/lib/connection.js:371:19)
+    at Socket.<anonymous> (/Users/jose/workspace/playground/week-8/Happy-G-Day/node_modules/pg/lib/connection.js:114:22)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:252:12)
+    at readableAddChunk (_stream_readable.js:239:11)
+    at Socket.Readable.push (_stream_readable.js:197:10)
+    at TCP.onread (net.js:589:20)[0m
+
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+[0mGET / [36m304 [0m9.169 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m6.794 ms - -[0m
+[0mGET /components/modal.js [36m304 [0m4.838 ms - -[0m
+[0mGET /components/nav.js [36m304 [0m4.894 ms - -[0m
+[0mGET /components/footer.js [36m304 [0m4.853 ms - -[0m
+[0mGET /components/calendar.js [36m304 [0m4.900 ms - -[0m
+[0mGET /components/profile.js [36m304 [0m1.041 ms - -[0m
+[0mGET /components/comment-modal.js [36m304 [0m1.023 ms - -[0m
+[0mGET /components/delete-modal.js [36m304 [0m0.732 ms - -[0m
+[0mGET /script/app.js [36m304 [0m0.719 ms - -[0m
+[0mGET /script/create-date.js [36m304 [0m1.044 ms - -[0m
+[0mGET /script/delete-comments.js [36m304 [0m1.226 ms - -[0m
+[0mGET /script/get-comments.js [36m304 [0m1.314 ms - -[0m
+[0mGET /script/post-comments.js [36m304 [0m1.474 ms - -[0m
+[0mGET /script/post-users.js [36m304 [0m5.307 ms - -[0m
+[0mGET /script/update-users.js [36m304 [0m4.475 ms - -[0m
+[0mGET /script/sign-up.js [36m304 [0m5.338 ms - -[0m
+[0mGET /script/login.js [36m304 [0m5.876 ms - -[0m
+[0mGET /script/verify.js [36m304 [0m5.765 ms - -[0m
+[0mGET /script/update-comments.js [36m304 [0m1.557 ms - -[0m
+[0mGET /api/v1/users [36m304 [0m22.046 ms - -[0m
+[0mGET /images/GDay%20Logo.png [36m304 [0m0.363 ms - -[0m
+[0mGET /images/GDay.png [36m304 [0m0.354 ms - -[0m
+[0mPOST /api/v1/verify [32m200 [0m20.011 ms - 262[0m
+[0mGET /api/v1/comments/1 [36m304 [0m15.556 ms - -[0m
+[0mGET /api/v1/comments/17 [36m304 [0m4.344 ms - -[0m
+37
+ddddd
+[0mPUT /api/v1/comment/37 [32m200 [0m13.146 ms - 28[0m
+[0mGET / [36m304 [0m0.387 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.925 ms - -[0m
+[0mGET /components/modal.js [36m304 [0m0.965 ms - -[0m
+[0mGET /components/nav.js [36m304 [0m1.342 ms - -[0m
+[0mGET /components/footer.js [36m304 [0m1.344 ms - -[0m
+[0mGET /components/calendar.js [36m304 [0m1.395 ms - -[0m
+[0mGET /components/profile.js [36m304 [0m0.443 ms - -[0m
+[0mGET /components/comment-modal.js [36m304 [0m3.801 ms - -[0m
+[0mGET /components/delete-modal.js [36m304 [0m4.892 ms - -[0m
+[0mGET /script/app.js [36m304 [0m4.417 ms - -[0m
+[0mGET /script/create-date.js [36m304 [0m3.981 ms - -[0m
+[0mGET /script/delete-comments.js [36m304 [0m4.174 ms - -[0m
+[0mGET /script/get-comments.js [36m304 [0m4.220 ms - -[0m
+[0mGET /script/post-comments.js [36m304 [0m0.862 ms - -[0m
+[0mGET /script/post-users.js [36m304 [0m2.478 ms - -[0m
+[0mGET /script/update-users.js [36m304 [0m2.280 ms - -[0m
+[0mGET /script/sign-up.js [36m304 [0m3.956 ms - -[0m
+[0mGET /script/login.js [36m304 [0m3.908 ms - -[0m
+[0mGET /script/update-comments.js [36m304 [0m4.059 ms - -[0m
+[0mGET /script/verify.js [36m304 [0m1.055 ms - -[0m
+[0mGET /api/v1/users [36m304 [0m5.373 ms - -[0m
+[0mGET /images/GDay%20Logo.png [36m304 [0m0.288 ms - -[0m
+[0mGET /images/GDay.png [36m304 [0m0.516 ms - -[0m
+[0mPOST /api/v1/verify [32m200 [0m0.937 ms - 262[0m
+[0mGET /api/v1/comments/1 [36m304 [0m2.378 ms - -[0m
+[0mGET /api/v1/comments/17 [32m200 [0m4.149 ms - 43[0m
+[0mGET / [36m304 [0m1.523 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.248 ms - -[0m
+[0mGET /components/modal.js [36m304 [0m4.806 ms - -[0m
+[0mGET /components/nav.js [36m304 [0m4.607 ms - -[0m
+[0mGET /components/footer.js [36m304 [0m6.114 ms - -[0m
+[0mGET /components/calendar.js [36m304 [0m3.818 ms - -[0m
+[0mGET /components/profile.js [36m304 [0m10.471 ms - -[0m
+[0mGET /components/comment-modal.js [36m304 [0m10.420 ms - -[0m
+[0mGET /components/delete-modal.js [36m304 [0m2.029 ms - -[0m
+[0mGET /script/app.js [36m304 [0m5.884 ms - -[0m
+[0mGET /script/create-date.js [36m304 [0m3.369 ms - -[0m
+[0mGET /script/delete-comments.js [36m304 [0m3.305 ms - -[0m
+[0mGET /script/get-comments.js [36m304 [0m1.333 ms - -[0m
+[0mGET /script/post-comments.js [36m304 [0m1.275 ms - -[0m
+[0mGET /script/post-users.js [36m304 [0m1.679 ms - -[0m
+[0mGET /script/update-users.js [36m304 [0m1.999 ms - -[0m
+[0mGET /script/sign-up.js [36m304 [0m1.218 ms - -[0m
+[0mGET /script/login.js [36m304 [0m1.242 ms - -[0m
+[0mGET /script/verify.js [36m304 [0m1.899 ms - -[0m
+[0mGET /script/update-comments.js [36m304 [0m0.469 ms - -[0m
+[0mGET /api/v1/users [36m304 [0m4.897 ms - -[0m
+[0mGET /images/GDay%20Logo.png [36m304 [0m4.080 ms - -[0m
+[0mGET /images/GDay.png [36m304 [0m0.908 ms - -[0m
+[0mPOST /api/v1/verify [32m200 [0m1.932 ms - 262[0m
+[0mGET /api/v1/comments/1 [36m304 [0m6.054 ms - -[0m
+[0mGET /api/v1/comments/17 [36m304 [0m8.572 ms - -[0m
+[0mGET /api/v1/comments [32m200 [0m3.346 ms - 923[0m
+^C[1m[7m%[27m[1m[0m                                                                                                                                                              ]2;jose@MacBook-Pro-de-Jose: ~/workspace/playground/week-8/Happy-G-Day]1;..8/Happy-G-Day[0m[27m[24m[J[39m[0m[49m[44m[30m ~/workspace/playground/week-8/Happy-G-Day [43m[34m[30m  jj-dev-08-2 ● [49m[33m[39m [K[?1h=[?2004hkknex seed:run[?1l>[?2004l
+]2;knex seed:run]1;knexUsing environment: [35mdevelopment[39m
+[32mRan 2 seed files 
+[36m/Users/jose/workspace/playground/week-8/Happy-G-Day/seeds/01_user.js
+/Users/jose/workspace/playground/week-8/Happy-G-Day/seeds/02_comment.js[32m[39m
+[1m[7m%[27m[1m[0m                                                                                                                                                              ]2;jose@MacBook-Pro-de-Jose: ~/workspace/playground/week-8/Happy-G-Day]1;..8/Happy-G-Day[0m[27m[24m[J[39m[0m[49m[44m[30m ~/workspace/playground/week-8/Happy-G-Day [43m[34m[30m  jj-dev-08-2 ● [49m[33m[39m [K[?1h=[?2004hnnodemon[?1l>[?2004l
+]2;nodemon]1;nodemon[33m[nodemon] 1.11.0[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching: *.*[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+[0mGET / [36m304 [0m11.102 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m6.742 ms - -[0m
+[0mGET /components/modal.js [36m304 [0m5.393 ms - -[0m
+[0mGET /components/nav.js [36m304 [0m6.467 ms - -[0m
+[0mGET /components/footer.js [36m304 [0m6.536 ms - -[0m
+[0mGET /components/calendar.js [36m304 [0m3.780 ms - -[0m
+[0mGET /components/profile.js [36m304 [0m5.517 ms - -[0m
+[0mGET /components/comment-modal.js [36m304 [0m2.017 ms - -[0m
+[0mGET /components/delete-modal.js [36m304 [0m1.323 ms - -[0m
+[0mGET /script/app.js [36m304 [0m0.945 ms - -[0m
+[0mGET /script/create-date.js [36m304 [0m1.049 ms - -[0m
+[0mGET /script/delete-comments.js [36m304 [0m1.388 ms - -[0m
+[0mGET /script/get-comments.js [36m304 [0m0.425 ms - -[0m
+[0mGET /script/post-comments.js [36m304 [0m0.543 ms - -[0m
+[0mGET /script/post-users.js [36m304 [0m2.571 ms - -[0m
+[0mGET /script/update-users.js [36m304 [0m2.768 ms - -[0m
+[0mGET /script/sign-up.js [36m304 [0m2.952 ms - -[0m
+[0mGET /script/login.js [36m304 [0m6.894 ms - -[0m
+[0mGET /script/verify.js [36m304 [0m3.583 ms - -[0m
+[0mGET /script/update-comments.js [36m304 [0m3.420 ms - -[0m
+[0mGET /api/v1/users [32m200 [0m21.581 ms - 2040[0m
+[0mGET /images/GDay%20Logo.png [36m304 [0m0.358 ms - -[0m
+[0mGET /images/GDay.png [36m304 [0m0.537 ms - -[0m
+[0mPOST /api/v1/verify [32m200 [0m17.554 ms - 262[0m
+[0mGET /api/v1/comments/1 [32m200 [0m14.416 ms - 137[0m
+[0mGET /api/v1/comments/17 [32m200 [0m4.345 ms - 2[0m
+[0mGET /api/v1/users [36m304 [0m7.363 ms - -[0m
+[0mPOST /api/v1/comments [32m200 [0m12.598 ms - 106[0m
+[0mGET / [36m304 [0m1.510 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m3.884 ms - -[0m
+[0mGET /components/modal.js [36m304 [0m3.757 ms - -[0m
+[0mGET /components/nav.js [36m304 [0m3.610 ms - -[0m
+[0mGET /components/footer.js [36m304 [0m3.270 ms - -[0m
+[0mGET /components/calendar.js [36m304 [0m2.599 ms - -[0m
+[0mGET /components/profile.js [36m304 [0m3.579 ms - -[0m
+[0mGET /components/comment-modal.js [36m304 [0m1.931 ms - -[0m
+[0mGET /components/delete-modal.js [36m304 [0m1.781 ms - -[0m
+[0mGET /script/app.js [36m304 [0m2.174 ms - -[0m
+[0mGET /script/create-date.js [36m304 [0m2.231 ms - -[0m
+[0mGET /script/delete-comments.js [36m304 [0m2.166 ms - -[0m
+[0mGET /script/get-comments.js [36m304 [0m4.095 ms - -[0m
+[0mGET /script/post-comments.js [36m304 [0m4.123 ms - -[0m
+[0mGET /script/post-users.js [36m304 [0m3.160 ms - -[0m
+[0mGET /script/update-users.js [36m304 [0m9.768 ms - -[0m
+[0mGET /script/sign-up.js [36m304 [0m10.634 ms - -[0m
+[0mGET /script/login.js [36m304 [0m5.305 ms - -[0m
+[0mGET /script/verify.js [36m304 [0m9.454 ms - -[0m
+[0mGET /script/update-comments.js [36m304 [0m9.204 ms - -[0m
+[0mGET /api/v1/users [36m304 [0m4.772 ms - -[0m
+[0mGET /images/GDay%20Logo.png [36m304 [0m1.554 ms - -[0m
+[0mGET /images/GDay.png [36m304 [0m1.480 ms - -[0m
+[0mPOST /api/v1/verify [32m200 [0m2.214 ms - 262[0m
+[0mGET /api/v1/comments/1 [36m304 [0m5.258 ms - -[0m
+[0mGET /api/v1/comments/17 [36m304 [0m4.456 ms - -[0m
+[0mGET /api/v1/users [36m304 [0m4.630 ms - -[0m
+[0mPOST /api/v1/comments [32m200 [0m8.291 ms - 103[0m
+[0mGET / [36m304 [0m0.696 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.153 ms - -[0m
+[0mGET /components/modal.js [36m304 [0m2.177 ms - -[0m
+[0mGET /components/nav.js [36m304 [0m0.535 ms - -[0m
+[0mGET /components/footer.js [36m304 [0m2.053 ms - -[0m
+[0mGET /components/calendar.js [36m304 [0m2.075 ms - -[0m
+[0mGET /components/profile.js [36m304 [0m2.100 ms - -[0m
+[0mGET /components/comment-modal.js [36m304 [0m0.701 ms - -[0m
+[0mGET /components/delete-modal.js [36m304 [0m0.782 ms - -[0m
+[0mGET /script/app.js [36m304 [0m3.625 ms - -[0m
+[0mGET /script/create-date.js [36m304 [0m3.577 ms - -[0m
+[0mGET /script/delete-comments.js [36m304 [0m3.482 ms - -[0m
+[0mGET /script/get-comments.js [36m304 [0m0.726 ms - -[0m
+[0mGET /script/post-comments.js [36m304 [0m0.527 ms - -[0m
+[0mGET /script/post-users.js [36m304 [0m1.259 ms - -[0m
+[0mGET /script/update-users.js [36m304 [0m1.081 ms - -[0m
+[0mGET /script/sign-up.js [36m304 [0m1.680 ms - -[0m
+[0mGET /script/login.js [36m304 [0m0.435 ms - -[0m
+[0mGET /script/verify.js [36m304 [0m0.290 ms - -[0m
+[0mGET /script/update-comments.js [36m304 [0m0.492 ms - -[0m
+[0mGET /api/v1/users [36m304 [0m1.701 ms - -[0m
+[0mGET /images/GDay%20Logo.png [36m304 [0m0.385 ms - -[0m
+[0mGET /images/GDay.png [36m304 [0m0.285 ms - -[0m
+[0mPOST /api/v1/verify [32m200 [0m0.833 ms - 262[0m
+[0mGET /api/v1/comments/1 [36m304 [0m2.258 ms - -[0m
+[0mGET /api/v1/comments/17 [36m304 [0m4.190 ms - -[0m
+[0mGET /api/v1/comments [32m200 [0m1.927 ms - 702[0m
+[0mGET / [36m304 [0m0.398 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.460 ms - -[0m
+[0mGET /components/modal.js [36m304 [0m2.297 ms - -[0m
+[0mGET /components/nav.js [36m304 [0m1.318 ms - -[0m
+[0mGET /components/footer.js [36m304 [0m1.303 ms - -[0m
+[0mGET /components/calendar.js [36m304 [0m4.674 ms - -[0m
+[0mGET /components/profile.js [36m304 [0m0.921 ms - -[0m
+[0mGET /components/comment-modal.js [36m304 [0m2.025 ms - -[0m
+[0mGET /components/delete-modal.js [36m304 [0m3.235 ms - -[0m
+[0mGET /script/app.js [36m304 [0m3.300 ms - -[0m
+[0mGET /script/create-date.js [36m304 [0m3.320 ms - -[0m
+[0mGET /script/delete-comments.js [36m304 [0m0.424 ms - -[0m
+[0mGET /script/get-comments.js [36m304 [0m0.405 ms - -[0m
+[0mGET /script/post-comments.js [36m304 [0m0.400 ms - -[0m
+[0mGET /script/post-users.js [36m304 [0m1.021 ms - -[0m
+[0mGET /script/update-users.js [36m304 [0m2.062 ms - -[0m
+[0mGET /script/sign-up.js [36m304 [0m0.460 ms - -[0m
+[0mGET /script/login.js [36m304 [0m0.955 ms - -[0m
+[0mGET /script/verify.js [36m304 [0m0.502 ms - -[0m
+[0mGET /script/update-comments.js [36m304 [0m1.044 ms - -[0m
+[0mGET /api/v1/users [36m304 [0m2.648 ms - -[0m
+[0mGET /images/GDay%20Logo.png [36m304 [0m0.645 ms - -[0m
+[0mGET /images/GDay.png [36m304 [0m0.483 ms - -[0m
+[0mGET /api/v1/comments/1 [36m304 [0m9.547 ms - -[0m
+[0mPOST /api/v1/users [32m200 [0m32.306 ms - 196[0m
+[0mPOST /api/v1/login/17 [32m200 [0m6.921 ms - 245[0m
+[0mGET / [36m304 [0m0.992 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.461 ms - -[0m
+[0mGET /components/modal.js [36m304 [0m2.684 ms - -[0m
+[0mGET /components/nav.js [36m304 [0m2.607 ms - -[0m
+[0mGET /components/footer.js [36m304 [0m2.233 ms - -[0m
+[0mGET /components/calendar.js [36m304 [0m1.892 ms - -[0m
+[0mGET /components/profile.js [36m304 [0m1.646 ms - -[0m
+[0mGET /components/comment-modal.js [36m304 [0m0.473 ms - -[0m
+[0mGET /components/delete-modal.js [36m304 [0m2.003 ms - -[0m
+[0mGET /script/app.js [36m304 [0m1.963 ms - -[0m
+[0mGET /script/create-date.js [36m304 [0m1.954 ms - -[0m
+[0mGET /script/delete-comments.js [36m304 [0m2.084 ms - -[0m
+[0mGET /script/get-comments.js [36m304 [0m2.182 ms - -[0m
+[0mGET /script/post-comments.js [36m304 [0m2.231 ms - -[0m
+[0mGET /script/post-users.js [36m304 [0m1.307 ms - -[0m
+[0mGET /script/update-users.js [36m304 [0m0.822 ms - -[0m
+[0mGET /script/sign-up.js [36m304 [0m2.559 ms - -[0m
+[0mGET /script/login.js [36m304 [0m2.174 ms - -[0m
+[0mGET /script/verify.js [36m304 [0m0.700 ms - -[0m
+[0mGET /script/update-comments.js [36m304 [0m0.829 ms - -[0m
+[0mGET /api/v1/users [32m200 [0m3.252 ms - 2167[0m
+[0mGET /images/GDay%20Logo.png [36m304 [0m1.505 ms - -[0m
+[0mPOST /api/v1/verify [32m200 [0m2.874 ms - 262[0m
+[0mGET /images/GDay.png [36m304 [0m12.006 ms - -[0m
+[0mGET /api/v1/comments/1 [36m304 [0m4.852 ms - -[0m
+[0mGET /api/v1/comments/17 [36m304 [0m5.256 ms - -[0m
+[0mGET /api/v1/users [36m304 [0m7.210 ms - -[0m
+[0mPOST /api/v1/comments [32m200 [0m12.182 ms - 99[0m
+[0mGET / [36m304 [0m0.290 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.231 ms - -[0m
+[0mGET /components/modal.js [36m304 [0m0.571 ms - -[0m
+[0mGET /components/nav.js [36m304 [0m8.390 ms - -[0m
+[0mGET /components/footer.js [36m304 [0m4.268 ms - -[0m
+[0mGET /components/calendar.js [36m304 [0m7.393 ms - -[0m
+[0mGET /components/profile.js [36m304 [0m7.512 ms - -[0m
+[0mGET /components/comment-modal.js [36m304 [0m3.830 ms - -[0m
+[0mGET /components/delete-modal.js [36m304 [0m3.917 ms - -[0m
+[0mGET /script/app.js [36m304 [0m6.812 ms - -[0m
+[0mGET /script/create-date.js [36m304 [0m4.545 ms - -[0m
+[0mGET /script/delete-comments.js [36m304 [0m3.342 ms - -[0m
+[0mGET /script/get-comments.js [36m304 [0m3.228 ms - -[0m
+[0mGET /script/post-comments.js [36m304 [0m1.013 ms - -[0m
+[0mGET /script/update-users.js [36m304 [0m0.979 ms - -[0m
+[0mGET /script/post-users.js [36m304 [0m0.926 ms - -[0m
+[0mGET /script/sign-up.js [36m304 [0m0.353 ms - -[0m
+[0mGET /script/login.js [36m304 [0m0.432 ms - -[0m
+[0mGET /script/verify.js [36m304 [0m0.403 ms - -[0m
+[0mGET /script/update-comments.js [36m304 [0m0.491 ms - -[0m
+[0mGET /api/v1/users [36m304 [0m2.712 ms - -[0m
+[0mGET /images/GDay%20Logo.png [36m304 [0m0.652 ms - -[0m
+[0mGET /images/GDay.png [36m304 [0m5.411 ms - -[0m
+[0mPOST /api/v1/verify [32m200 [0m0.902 ms - 262[0m
+[0mGET /api/v1/comments/1 [32m200 [0m2.323 ms - 180[0m
+[0mGET /api/v1/comments/17 [36m304 [0m3.284 ms - -[0m
+[0mGET /api/v1/users [36m304 [0m2.729 ms - -[0m
+[0mPOST /api/v1/comments [32m200 [0m6.615 ms - 103[0m
+[0mGET / [36m304 [0m0.314 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.434 ms - -[0m
+[0mGET /components/footer.js [36m304 [0m1.484 ms - -[0m
+[0mGET /components/modal.js [36m304 [0m1.449 ms - -[0m
+[0mGET /components/nav.js [36m304 [0m0.956 ms - -[0m
+[0mGET /components/calendar.js [36m304 [0m0.843 ms - -[0m
+[0mGET /components/profile.js [36m304 [0m0.762 ms - -[0m
+[0mGET /components/comment-modal.js [36m304 [0m0.378 ms - -[0m
+[0mGET /components/delete-modal.js [36m304 [0m1.115 ms - -[0m
+[0mGET /script/app.js [36m304 [0m1.108 ms - -[0m
+[0mGET /script/create-date.js [36m304 [0m1.133 ms - -[0m
+[0mGET /script/delete-comments.js [36m304 [0m1.102 ms - -[0m
+[0mGET /script/get-comments.js [36m304 [0m0.584 ms - -[0m
+[0mGET /script/post-comments.js [36m304 [0m0.622 ms - -[0m
+[0mGET /script/post-users.js [36m304 [0m3.349 ms - -[0m
+[0mGET /script/update-users.js [36m304 [0m3.185 ms - -[0m
+[0mGET /script/sign-up.js [36m304 [0m3.115 ms - -[0m
+[0mGET /script/login.js [36m304 [0m3.100 ms - -[0m
+[0mGET /script/verify.js [36m304 [0m2.845 ms - -[0m
+[0mGET /script/update-comments.js [36m304 [0m1.830 ms - -[0m
+[0mGET /api/v1/users [36m304 [0m2.098 ms - -[0m
+[0mGET /images/GDay%20Logo.png [36m304 [0m0.271 ms - -[0m
+[0mGET /images/GDay.png [36m304 [0m0.400 ms - -[0m
+[0mPOST /api/v1/verify [32m200 [0m1.024 ms - 262[0m
+[0mGET /api/v1/comments/1 [36m304 [0m2.028 ms - -[0m
+[0mGET /api/v1/comments/17 [32m200 [0m5.281 ms - 47[0m
+8
+helloooooo
+[0mPUT /api/v1/comment/8 [32m200 [0m11.136 ms - 28[0m
+[0mGET / [36m304 [0m0.330 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.615 ms - -[0m
+[0mGET /components/modal.js [36m304 [0m1.186 ms - -[0m
+[0mGET /components/nav.js [36m304 [0m1.869 ms - -[0m
+[0mGET /components/footer.js [36m304 [0m1.845 ms - -[0m
+[0mGET /components/calendar.js [36m304 [0m0.356 ms - -[0m
+[0mGET /components/profile.js [36m304 [0m0.346 ms - -[0m
+[0mGET /components/comment-modal.js [36m304 [0m0.911 ms - -[0m
+[0mGET /components/delete-modal.js [36m304 [0m0.948 ms - -[0m
+[0mGET /script/app.js [36m304 [0m1.007 ms - -[0m
+[0mGET /script/create-date.js [36m304 [0m0.612 ms - -[0m
+[0mGET /script/delete-comments.js [36m304 [0m3.166 ms - -[0m
+[0mGET /script/get-comments.js [36m304 [0m0.332 ms - -[0m
+[0mGET /script/post-comments.js [36m304 [0m1.756 ms - -[0m
+[0mGET /script/post-users.js [36m304 [0m1.711 ms - -[0m
+[0mGET /script/update-users.js [36m304 [0m1.701 ms - -[0m
+[0mGET /script/sign-up.js [36m304 [0m0.771 ms - -[0m
+[0mGET /script/login.js [36m304 [0m0.758 ms - -[0m
+[0mGET /script/verify.js [36m304 [0m0.743 ms - -[0m
+[0mGET /script/update-comments.js [36m304 [0m0.373 ms - -[0m
+[0mGET /api/v1/users [36m304 [0m2.178 ms - -[0m
+[0mGET /images/GDay%20Logo.png [36m304 [0m0.311 ms - -[0m
+[0mGET /images/GDay.png [36m304 [0m0.284 ms - -[0m
+[0mPOST /api/v1/verify [32m200 [0m0.668 ms - 262[0m
+[0mGET /api/v1/comments/1 [36m304 [0m2.015 ms - -[0m
+[0mGET /api/v1/comments/17 [32m200 [0m2.249 ms - 42[0m
+[0mDELETE /api/v1/comments/8 [32m200 [0m5.283 ms - 35[0m
+[0mGET / [36m304 [0m0.415 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.625 ms - -[0m
+[0mGET /components/modal.js [36m304 [0m0.384 ms - -[0m
+[0mGET /components/nav.js [36m304 [0m0.292 ms - -[0m
+[0mGET /components/footer.js [36m304 [0m0.342 ms - -[0m
+[0mGET /components/calendar.js [36m304 [0m0.305 ms - -[0m
+[0mGET /components/profile.js [36m304 [0m0.321 ms - -[0m
+[0mGET /components/comment-modal.js [36m304 [0m2.555 ms - -[0m
+[0mGET /components/delete-modal.js [36m304 [0m2.533 ms - -[0m
+[0mGET /script/app.js [36m304 [0m2.646 ms - -[0m
+[0mGET /script/create-date.js [36m304 [0m1.799 ms - -[0m
+[0mGET /script/delete-comments.js [36m304 [0m2.065 ms - -[0m
+[0mGET /script/get-comments.js [36m304 [0m0.985 ms - -[0m
+[0mGET /script/post-comments.js [36m304 [0m1.498 ms - -[0m
+[0mGET /script/post-users.js [36m304 [0m1.468 ms - -[0m
+[0mGET /script/update-users.js [36m304 [0m1.493 ms - -[0m
+[0mGET /script/sign-up.js [36m304 [0m1.472 ms - -[0m
+[0mGET /script/login.js [36m304 [0m1.442 ms - -[0m
+[0mGET /script/verify.js [36m304 [0m0.332 ms - -[0m
+[0mGET /script/update-comments.js [36m304 [0m0.314 ms - -[0m
+[0mGET /api/v1/users [36m304 [0m1.506 ms - -[0m
+[0mGET /images/GDay%20Logo.png [36m304 [0m0.404 ms - -[0m
+[0mGET /images/GDay.png [36m304 [0m0.352 ms - -[0m
+[0mPOST /api/v1/verify [32m200 [0m0.845 ms - 262[0m
+[0mGET /api/v1/comments/1 [36m304 [0m3.523 ms - -[0m
+[0mGET /api/v1/comments/17 [32m200 [0m3.028 ms - 2[0m
+[0mGET /api/v1/users [36m304 [0m1.803 ms - -[0m
+[0mPOST /api/v1/comments [32m200 [0m5.629 ms - 100[0m
+[0mGET / [36m304 [0m0.351 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.945 ms - -[0m
+[0mGET /components/modal.js [36m304 [0m0.902 ms - -[0m
+[0mGET /components/nav.js [36m304 [0m0.943 ms - -[0m
+[0mGET /components/footer.js [36m304 [0m0.505 ms - -[0m
+[0mGET /components/calendar.js [36m304 [0m0.664 ms - -[0m
+[0mGET /components/profile.js [36m304 [0m0.641 ms - -[0m
+[0mGET /components/comment-modal.js [36m304 [0m2.094 ms - -[0m
+[0mGET /components/delete-modal.js [36m304 [0m2.067 ms - -[0m
+[0mGET /script/app.js [36m304 [0m2.080 ms - -[0m
+[0mGET /script/create-date.js [36m304 [0m1.965 ms - -[0m
+[0mGET /script/delete-comments.js [36m304 [0m1.865 ms - -[0m
+[0mGET /script/get-comments.js [36m304 [0m1.848 ms - -[0m
+[0mGET /script/post-comments.js [36m304 [0m1.222 ms - -[0m
+[0mGET /script/post-users.js [36m304 [0m1.228 ms - -[0m
+[0mGET /script/update-users.js [36m304 [0m1.234 ms - -[0m
+[0mGET /script/sign-up.js [36m304 [0m1.197 ms - -[0m
+[0mGET /script/login.js [36m304 [0m0.581 ms - -[0m
+[0mGET /script/verify.js [36m304 [0m0.558 ms - -[0m
+[0mGET /script/update-comments.js [36m304 [0m0.267 ms - -[0m
+[0mGET /api/v1/users [36m304 [0m1.486 ms - -[0m
+[0mGET /images/GDay%20Logo.png [36m304 [0m0.311 ms - -[0m
+[0mGET /images/GDay.png [36m304 [0m0.354 ms - -[0m
+[0mPOST /api/v1/verify [32m200 [0m1.312 ms - 262[0m
+[0mGET /api/v1/comments/1 [36m304 [0m2.086 ms - -[0m
+[0mGET /api/v1/comments/17 [32m200 [0m3.156 ms - 44[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+[0mGET / [36m304 [0m7.743 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m3.997 ms - -[0m
+[0mGET /components/modal.js [36m304 [0m4.429 ms - -[0m
+[0mGET /components/nav.js [36m304 [0m5.236 ms - -[0m
+[0mGET /components/footer.js [36m304 [0m5.366 ms - -[0m
+[0mGET /components/calendar.js [36m304 [0m5.736 ms - -[0m
+[0mGET /components/profile.js [36m304 [0m1.672 ms - -[0m
+[0mGET /components/comment-modal.js [36m304 [0m0.442 ms - -[0m
+[0mGET /components/delete-modal.js [36m304 [0m0.389 ms - -[0m
+[0mGET /script/app.js [36m304 [0m2.779 ms - -[0m
+[0mGET /script/create-date.js [36m304 [0m1.492 ms - -[0m
+[0mGET /script/delete-comments.js [36m304 [0m1.328 ms - -[0m
+[0mGET /script/get-comments.js [36m304 [0m1.128 ms - -[0m
+[0mGET /script/post-comments.js [36m304 [0m0.867 ms - -[0m
+[0mGET /script/post-users.js [36m304 [0m1.297 ms - -[0m
+[0mGET /script/update-users.js [36m304 [0m0.639 ms - -[0m
+[0mGET /script/sign-up.js [36m304 [0m0.692 ms - -[0m
+[0mGET /script/login.js [36m304 [0m4.863 ms - -[0m
+[0mGET /script/verify.js [36m304 [0m6.899 ms - -[0m
+[0mGET /script/update-comments.js [36m304 [0m3.685 ms - -[0m
+[0mGET /api/v1/users [36m304 [0m20.674 ms - -[0m
+[0mGET /images/GDay%20Logo.png [36m304 [0m0.359 ms - -[0m
+[0mGET /images/GDay.png [36m304 [0m0.336 ms - -[0m
+[0mPOST /api/v1/verify [32m200 [0m18.843 ms - 262[0m
+[0mGET /api/v1/comments/1 [36m304 [0m16.004 ms - -[0m
+[0mGET /api/v1/comments/17 [36m304 [0m5.515 ms - -[0m
+9
+fdsdsds
+[0mPUT /api/v1/comment/9 [31m500 [0m127.128 ms - 2214[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+[0mGET / [36m304 [0m9.533 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m6.318 ms - -[0m
+[0mGET /components/modal.js [36m304 [0m5.638 ms - -[0m
+[0mGET /components/nav.js [36m304 [0m4.201 ms - -[0m
+[0mGET /components/footer.js [36m304 [0m4.233 ms - -[0m
+[0mGET /components/calendar.js [36m304 [0m4.158 ms - -[0m
+[0mGET /components/profile.js [36m304 [0m12.008 ms - -[0m
+[0mGET /components/comment-modal.js [36m304 [0m1.457 ms - -[0m
+[0mGET /components/delete-modal.js [36m304 [0m1.429 ms - -[0m
+[0mGET /script/app.js [36m304 [0m1.532 ms - -[0m
+[0mGET /script/create-date.js [36m304 [0m0.643 ms - -[0m
+[0mGET /script/delete-comments.js [36m304 [0m0.656 ms - -[0m
+[0mGET /script/get-comments.js [36m304 [0m0.939 ms - -[0m
+[0mGET /script/post-comments.js [36m304 [0m2.424 ms - -[0m
+[0mGET /script/post-users.js [36m304 [0m4.394 ms - -[0m
+[0mGET /script/update-users.js [36m304 [0m3.966 ms - -[0m
+[0mGET /script/sign-up.js [36m304 [0m4.684 ms - -[0m
+[0mGET /script/login.js [36m304 [0m4.212 ms - -[0m
+[0mGET /script/verify.js [36m304 [0m3.598 ms - -[0m
+[0mGET /script/update-comments.js [36m304 [0m1.768 ms - -[0m
+[0mGET /api/v1/users [36m304 [0m17.972 ms - -[0m
+[0mGET /images/GDay%20Logo.png [36m304 [0m0.395 ms - -[0m
+[0mGET /images/GDay.png [36m304 [0m0.355 ms - -[0m
+[0mPOST /api/v1/verify [32m200 [0m21.895 ms - 262[0m
+[0mGET /api/v1/comments/1 [36m304 [0m13.852 ms - -[0m
+[0mGET /api/v1/comments/17 [36m304 [0m4.789 ms - -[0m
+9
+dddd
+{ comment: '' }
+[0mPUT /api/v1/comment/9 [32m200 [0m12.921 ms - 28[0m
+[0mGET / [36m304 [0m0.532 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.685 ms - -[0m
+[0mGET /components/modal.js [36m304 [0m1.377 ms - -[0m
+[0mGET /components/nav.js [36m304 [0m0.592 ms - -[0m
+[0mGET /components/footer.js [36m304 [0m1.080 ms - -[0m
+[0mGET /components/calendar.js [36m304 [0m1.297 ms - -[0m
+[0mGET /components/profile.js [36m304 [0m1.525 ms - -[0m
+[0mGET /components/comment-modal.js [36m304 [0m5.938 ms - -[0m
+[0mGET /components/delete-modal.js [36m304 [0m4.202 ms - -[0m
+[0mGET /script/app.js [36m304 [0m3.455 ms - -[0m
+[0mGET /script/create-date.js [36m304 [0m2.289 ms - -[0m
+[0mGET /script/delete-comments.js [36m304 [0m2.001 ms - -[0m
+[0mGET /script/get-comments.js [36m304 [0m1.960 ms - -[0m
+[0mGET /script/post-comments.js [36m304 [0m1.196 ms - -[0m
+[0mGET /script/post-users.js [36m304 [0m1.505 ms - -[0m
+[0mGET /script/update-users.js [36m304 [0m1.259 ms - -[0m
+[0mGET /script/sign-up.js [36m304 [0m3.195 ms - -[0m
+[0mGET /script/login.js [36m304 [0m2.712 ms - -[0m
+[0mGET /script/update-comments.js [36m304 [0m1.166 ms - -[0m
+[0mGET /script/verify.js [36m304 [0m0.386 ms - -[0m
+[0mGET /api/v1/users [36m304 [0m4.340 ms - -[0m
+[0mGET /images/GDay%20Logo.png [36m304 [0m0.373 ms - -[0m
+[0mGET /images/GDay.png [36m304 [0m0.511 ms - -[0m
+[0mPOST /api/v1/verify [32m200 [0m1.290 ms - 262[0m
+[0mGET /api/v1/comments/1 [36m304 [0m3.078 ms - -[0m
+[0mGET /api/v1/comments/17 [32m200 [0m4.028 ms - 42[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+[0mDELETE /api/v1/comments/9 [32m200 [0m30.274 ms - 35[0m
+[0mGET / [36m304 [0m5.639 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.967 ms - -[0m
+[0mGET /components/modal.js [36m304 [0m2.217 ms - -[0m
+[0mGET /components/nav.js [36m304 [0m2.441 ms - -[0m
+[0mGET /components/footer.js [36m304 [0m2.445 ms - -[0m
+[0mGET /components/calendar.js [36m304 [0m2.462 ms - -[0m
+[0mGET /components/profile.js [36m304 [0m2.797 ms - -[0m
+[0mGET /components/comment-modal.js [36m304 [0m0.295 ms - -[0m
+[0mGET /components/delete-modal.js [36m304 [0m2.733 ms - -[0m
+[0mGET /script/app.js [36m304 [0m2.707 ms - -[0m
+[0mGET /script/create-date.js [36m304 [0m3.489 ms - -[0m
+[0mGET /script/delete-comments.js [36m304 [0m3.669 ms - -[0m
+[0mGET /script/get-comments.js [36m304 [0m3.651 ms - -[0m
+[0mGET /script/post-comments.js [36m304 [0m3.295 ms - -[0m
+[0mGET /script/post-users.js [36m304 [0m1.215 ms - -[0m
+[0mGET /script/update-users.js [36m304 [0m1.643 ms - -[0m
+[0mGET /script/sign-up.js [36m304 [0m4.293 ms - -[0m
+[0mGET /script/login.js [36m304 [0m4.311 ms - -[0m
+[0mGET /script/verify.js [36m304 [0m3.324 ms - -[0m
+[0mGET /script/update-comments.js [32m200 [0m7.690 ms - 223[0m
+[0mGET /api/v1/users [36m304 [0m7.870 ms - -[0m
+[0mGET /images/GDay%20Logo.png [36m304 [0m0.284 ms - -[0m
+[0mGET /images/GDay.png [36m304 [0m0.449 ms - -[0m
+[0mPOST /api/v1/verify [32m200 [0m19.368 ms - 262[0m
+[0mGET /api/v1/comments/1 [36m304 [0m8.189 ms - -[0m
+[0mGET /api/v1/comments/17 [32m200 [0m3.973 ms - 2[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+[0mGET /api/v1/users [36m304 [0m31.192 ms - -[0m
+[0mPOST /api/v1/comments [32m200 [0m25.439 ms - 101[0m
+[0mGET / [36m304 [0m3.617 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m2.287 ms - -[0m
+[0mGET /components/modal.js [36m304 [0m0.858 ms - -[0m
+[0mGET /components/nav.js [36m304 [0m1.271 ms - -[0m
+[0mGET /components/footer.js [36m304 [0m1.142 ms - -[0m
+[0mGET /components/calendar.js [36m304 [0m1.229 ms - -[0m
+[0mGET /components/profile.js [36m304 [0m1.324 ms - -[0m
+[0mGET /components/comment-modal.js [36m304 [0m0.514 ms - -[0m
+[0mGET /components/delete-modal.js [36m304 [0m0.785 ms - -[0m
+[0mGET /script/app.js [36m304 [0m0.775 ms - -[0m
+[0mGET /script/create-date.js [36m304 [0m3.138 ms - -[0m
+[0mGET /script/delete-comments.js [36m304 [0m3.251 ms - -[0m
+[0mGET /script/get-comments.js [36m304 [0m3.145 ms - -[0m
+[0mGET /script/post-comments.js [36m304 [0m3.383 ms - -[0m
+[0mGET /script/post-users.js [36m304 [0m2.117 ms - -[0m
+[0mGET /script/update-users.js [36m304 [0m5.956 ms - -[0m
+[0mGET /script/sign-up.js [36m304 [0m0.708 ms - -[0m
+[0mGET /script/login.js [36m304 [0m0.873 ms - -[0m
+[0mGET /script/verify.js [36m304 [0m0.425 ms - -[0m
+[0mGET /script/update-comments.js [32m200 [0m5.205 ms - 248[0m
+[0mGET /api/v1/users [36m304 [0m4.341 ms - -[0m
+[0mGET /images/GDay%20Logo.png [36m304 [0m0.470 ms - -[0m
+[0mGET /images/GDay.png [36m304 [0m1.390 ms - -[0m
+[0mPOST /api/v1/verify [32m200 [0m5.389 ms - 262[0m
+[0mGET /api/v1/comments/1 [36m304 [0m5.724 ms - -[0m
+[0mGET /api/v1/comments/17 [32m200 [0m5.546 ms - 45[0m
+10
+hello
+{ comment: '' }
+[0mPUT /api/v1/comment/10 [32m200 [0m13.522 ms - 103[0m
+[0mGET /api/v1/comments [32m200 [0m5.256 ms - 834[0m
+[0mPUT /api/v1/comments/10 [33m404 [0m103.415 ms - 2087[0m
+10
+undefined
+{ comment: '' }
+[0mPUT /api/v1/comment/10 [32m200 [0m8.151 ms - 103[0m
+10
+test
+{ comment: '' }
+[0mPUT /api/v1/comment/10 [32m200 [0m9.171 ms - 103[0m
+10
+undefined
+{ comment: '' }
+[0mPUT /api/v1/comment/10 [32m200 [0m6.903 ms - 103[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+[0mGET / [36m304 [0m7.974 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m11.487 ms - -[0m
+[0mGET /components/modal.js [36m304 [0m7.906 ms - -[0m
+[0mGET /components/nav.js [36m304 [0m8.506 ms - -[0m
+[0mGET /components/footer.js [36m304 [0m12.477 ms - -[0m
+[0mGET /components/calendar.js [36m304 [0m12.530 ms - -[0m
+[0mGET /components/profile.js [36m304 [0m8.024 ms - -[0m
+[0mGET /script/app.js [36m304 [0m1.269 ms - -[0m
+[0mGET /components/comment-modal.js [36m304 [0m2.132 ms - -[0m
+[0mGET /components/delete-modal.js [36m304 [0m2.424 ms - -[0m
+[0mGET /script/create-date.js [36m304 [0m2.402 ms - -[0m
+[0mGET /script/delete-comments.js [36m304 [0m1.013 ms - -[0m
+[0mGET /script/get-comments.js [36m304 [0m0.480 ms - -[0m
+[0mGET /script/post-comments.js [36m304 [0m8.585 ms - -[0m
+[0mGET /script/post-users.js [36m304 [0m8.170 ms - -[0m
+[0mGET /script/update-users.js [36m304 [0m0.604 ms - -[0m
+[0mGET /script/sign-up.js [36m304 [0m2.933 ms - -[0m
+[0mGET /script/login.js [36m304 [0m2.907 ms - -[0m
+[0mGET /script/verify.js [36m304 [0m2.795 ms - -[0m
+[0mGET /script/update-comments.js [32m200 [0m4.450 ms - 275[0m
+[0mGET /api/v1/users [36m304 [0m21.346 ms - -[0m
+[0mGET /images/GDay%20Logo.png [36m304 [0m0.507 ms - -[0m
+[0mGET /images/GDay.png [36m304 [0m0.407 ms - -[0m
+[0mPOST /api/v1/verify [32m200 [0m20.827 ms - 262[0m
+[0mGET /api/v1/comments/1 [36m304 [0m15.193 ms - -[0m
+[0mGET /api/v1/comments/17 [32m200 [0m6.108 ms - 43[0m
+10
+undefined
+{ comment: '' }
+[0mPUT /api/v1/comment/10 [32m200 [0m14.924 ms - 103[0m
+[0mGET / [36m304 [0m1.515 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m5.070 ms - -[0m
+[0mGET /components/modal.js [36m304 [0m5.667 ms - -[0m
+[0mGET /components/footer.js [36m304 [0m6.166 ms - -[0m
+[0mGET /components/nav.js [36m304 [0m6.265 ms - -[0m
+[0mGET /components/calendar.js [36m304 [0m6.421 ms - -[0m
+[0mGET /components/profile.js [36m304 [0m3.028 ms - -[0m
+[0mGET /components/comment-modal.js [36m304 [0m1.842 ms - -[0m
+[0mGET /components/delete-modal.js [36m304 [0m4.537 ms - -[0m
+[0mGET /script/app.js [36m304 [0m2.068 ms - -[0m
+[0mGET /script/create-date.js [36m304 [0m2.274 ms - -[0m
+[0mGET /script/delete-comments.js [36m304 [0m2.137 ms - -[0m
+[0mGET /script/get-comments.js [36m304 [0m1.868 ms - -[0m
+[0mGET /script/post-comments.js [36m304 [0m0.469 ms - -[0m
+[0mGET /script/post-users.js [36m304 [0m6.396 ms - -[0m
+[0mGET /script/update-users.js [36m304 [0m7.398 ms - -[0m
+[0mGET /script/sign-up.js [36m304 [0m9.760 ms - -[0m
+[0mGET /script/login.js [36m304 [0m9.892 ms - -[0m
+[0mGET /script/verify.js [36m304 [0m3.604 ms - -[0m
+[0mGET /script/update-comments.js [36m304 [0m0.956 ms - -[0m
+[0mGET /api/v1/users [36m304 [0m6.576 ms - -[0m
+[0mGET /images/GDay%20Logo.png [36m304 [0m3.728 ms - -[0m
+[0mGET /images/GDay.png [36m304 [0m0.612 ms - -[0m
+[0mPOST /api/v1/verify [32m200 [0m2.500 ms - 262[0m
+[0mGET /api/v1/comments/1 [36m304 [0m4.700 ms - -[0m
+[0mGET /api/v1/comments/17 [36m304 [0m6.033 ms - -[0m
+10
+undefined
+{ comment: '' }
+[0mPUT /api/v1/comment/10 [32m200 [0m7.900 ms - 103[0m
+[0mDELETE /api/v1/comments/10 [32m200 [0m8.280 ms - 36[0m
+[0mGET / [36m304 [0m0.969 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.631 ms - -[0m
+[0mGET /components/modal.js [36m304 [0m0.459 ms - -[0m
+[0mGET /components/nav.js [36m304 [0m0.311 ms - -[0m
+[0mGET /components/footer.js [36m304 [0m1.559 ms - -[0m
+[0mGET /components/calendar.js [36m304 [0m1.783 ms - -[0m
+[0mGET /components/profile.js [36m304 [0m1.847 ms - -[0m
+[0mGET /components/comment-modal.js [36m304 [0m3.452 ms - -[0m
+[0mGET /components/delete-modal.js [36m304 [0m4.436 ms - -[0m
+[0mGET /script/app.js [36m304 [0m6.352 ms - -[0m
+[0mGET /script/create-date.js [36m304 [0m7.299 ms - -[0m
+[0mGET /script/delete-comments.js [36m304 [0m0.712 ms - -[0m
+[0mGET /script/post-users.js [36m304 [0m0.727 ms - -[0m
+[0mGET /script/get-comments.js [36m304 [0m0.764 ms - -[0m
+[0mGET /script/post-comments.js [36m304 [0m0.773 ms - -[0m
+[0mGET /script/update-users.js [36m304 [0m0.427 ms - -[0m
+[0mGET /script/sign-up.js [36m304 [0m1.366 ms - -[0m
+[0mGET /script/login.js [36m304 [0m0.970 ms - -[0m
+[0mGET /script/verify.js [36m304 [0m1.954 ms - -[0m
+[0mGET /script/update-comments.js [36m304 [0m0.961 ms - -[0m
+[0mGET /api/v1/users [36m304 [0m4.840 ms - -[0m
+[0mGET /images/GDay%20Logo.png [36m304 [0m0.393 ms - -[0m
+[0mGET /images/GDay.png [36m304 [0m0.476 ms - -[0m
+[0mPOST /api/v1/verify [32m200 [0m1.468 ms - 262[0m
+[0mGET /api/v1/comments/1 [36m304 [0m2.843 ms - -[0m
+[0mGET /api/v1/comments/17 [32m200 [0m4.414 ms - 2[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+7
+undefined
+{ comment: '' }
+[0mPUT /api/v1/comment/7 [32m200 [0m55.139 ms - 101[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+[0mGET / [36m304 [0m8.780 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m3.394 ms - -[0m
+[0mGET /components/modal.js [36m304 [0m4.747 ms - -[0m
+[0mGET /components/nav.js [36m304 [0m4.578 ms - -[0m
+[0mGET /components/footer.js [36m304 [0m4.556 ms - -[0m
+[0mGET /components/calendar.js [36m304 [0m3.230 ms - -[0m
+[0mGET /components/profile.js [36m304 [0m3.073 ms - -[0m
+[0mGET /components/comment-modal.js [36m304 [0m3.006 ms - -[0m
+[0mGET /components/delete-modal.js [36m304 [0m1.675 ms - -[0m
+[0mGET /script/app.js [36m304 [0m1.608 ms - -[0m
+[0mGET /script/create-date.js [36m304 [0m1.604 ms - -[0m
+[0mGET /script/delete-comments.js [36m304 [0m1.708 ms - -[0m
+[0mGET /script/get-comments.js [36m304 [0m1.690 ms - -[0m
+[0mGET /script/post-comments.js [36m304 [0m0.524 ms - -[0m
+[0mGET /script/post-users.js [36m304 [0m5.695 ms - -[0m
+[0mGET /script/update-users.js [36m304 [0m5.627 ms - -[0m
+[0mGET /script/sign-up.js [36m304 [0m6.683 ms - -[0m
+[0mGET /script/login.js [36m304 [0m9.488 ms - -[0m
+[0mGET /script/verify.js [36m304 [0m9.077 ms - -[0m
+[0mGET /script/update-comments.js [32m200 [0m9.453 ms - 248[0m
+[0mGET /api/v1/users [36m304 [0m19.296 ms - -[0m
+[0mGET /images/GDay%20Logo.png [36m304 [0m0.380 ms - -[0m
+[0mGET /images/GDay.png [36m304 [0m0.318 ms - -[0m
+[0mPOST /api/v1/verify [32m200 [0m19.656 ms - 262[0m
+[0mGET /api/v1/comments/1 [32m200 [0m12.560 ms - 178[0m
+[0mGET /api/v1/comments/17 [36m304 [0m4.310 ms - -[0m
+7
+fffff
+{ comment: '',
+  birthday_user_id: undefined,
+  comment_user_id: undefined }
+[0mPUT /api/v1/comment/7 [32m200 [0m13.930 ms - 101[0m
+[0mGET / [36m304 [0m1.510 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m2.244 ms - -[0m
+[0mGET /components/modal.js [36m304 [0m6.606 ms - -[0m
+[0mGET /components/nav.js [36m304 [0m6.714 ms - -[0m
+[0mGET /components/footer.js [36m304 [0m6.760 ms - -[0m
+[0mGET /components/calendar.js [36m304 [0m4.378 ms - -[0m
+[0mGET /components/profile.js [36m304 [0m2.483 ms - -[0m
+[0mGET /components/comment-modal.js [36m304 [0m1.963 ms - -[0m
+[0mGET /components/delete-modal.js [36m304 [0m2.346 ms - -[0m
+[0mGET /script/app.js [36m304 [0m3.575 ms - -[0m
+[0mGET /script/create-date.js [36m304 [0m3.103 ms - -[0m
+[0mGET /script/delete-comments.js [36m304 [0m10.905 ms - -[0m
+[0mGET /script/get-comments.js [36m304 [0m12.035 ms - -[0m
+[0mGET /script/post-comments.js [36m304 [0m5.460 ms - -[0m
+[0mGET /script/post-users.js [36m304 [0m3.403 ms - -[0m
+[0mGET /script/update-users.js [36m304 [0m1.445 ms - -[0m
+[0mGET /script/sign-up.js [36m304 [0m1.232 ms - -[0m
+[0mGET /script/login.js [36m304 [0m1.033 ms - -[0m
+[0mGET /script/verify.js [36m304 [0m4.244 ms - -[0m
+[0mGET /script/update-comments.js [36m304 [0m1.887 ms - -[0m
+[0mGET /api/v1/users [36m304 [0m7.218 ms - -[0m
+[0mGET /images/GDay%20Logo.png [36m304 [0m1.251 ms - -[0m
+[0mGET /images/GDay.png [36m304 [0m1.331 ms - -[0m
+[0mPOST /api/v1/verify [32m200 [0m1.522 ms - 262[0m
+[0mGET /api/v1/comments/1 [36m304 [0m5.215 ms - -[0m
+[0mGET /api/v1/comments/17 [36m304 [0m5.192 ms - -[0m
+7
+fuckkkkkkk
+{ comment: '',
+  birthday_user_id: undefined,
+  comment_user_id: undefined }
+[0mPUT /api/v1/comment/7 [32m200 [0m9.020 ms - 101[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+[0mGET / [36m304 [0m8.383 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m6.910 ms - -[0m
+[0mGET /components/modal.js [36m304 [0m6.391 ms - -[0m
+[0mGET /components/nav.js [36m304 [0m6.009 ms - -[0m
+[0mGET /components/footer.js [36m304 [0m6.145 ms - -[0m
+[0mGET /components/calendar.js [36m304 [0m6.216 ms - -[0m
+[0mGET /components/comment-modal.js [36m304 [0m3.288 ms - -[0m
+[0mGET /components/profile.js [36m304 [0m5.081 ms - -[0m
+[0mGET /components/delete-modal.js [36m304 [0m4.019 ms - -[0m
+[0mGET /script/app.js [36m304 [0m4.670 ms - -[0m
+[0mGET /script/create-date.js [36m304 [0m4.647 ms - -[0m
+[0mGET /script/delete-comments.js [36m304 [0m4.675 ms - -[0m
+[0mGET /script/get-comments.js [36m304 [0m4.688 ms - -[0m
+[0mGET /script/post-comments.js [36m304 [0m4.435 ms - -[0m
+[0mGET /script/post-users.js [36m304 [0m1.271 ms - -[0m
+[0mGET /script/update-users.js [36m304 [0m0.720 ms - -[0m
+[0mGET /script/sign-up.js [36m304 [0m1.271 ms - -[0m
+[0mGET /script/login.js [36m304 [0m3.544 ms - -[0m
+[0mGET /script/verify.js [36m304 [0m2.559 ms - -[0m
+[0mGET /script/update-comments.js [36m304 [0m2.111 ms - -[0m
+[0mGET /api/v1/users [36m304 [0m25.158 ms - -[0m
+[0mGET /images/GDay%20Logo.png [36m304 [0m0.349 ms - -[0m
+[0mGET /images/GDay.png [36m304 [0m0.379 ms - -[0m
+[0mPOST /api/v1/verify [32m200 [0m22.556 ms - 262[0m
+[0mGET /api/v1/comments/1 [36m304 [0m16.188 ms - -[0m
+[0mGET /api/v1/comments/17 [36m304 [0m4.237 ms - -[0m
+7
+works?!
+{ comment: 'works?!',
+  birthday_user_id: undefined,
+  comment_user_id: undefined }
+[0mPUT /api/v1/comment/7 [32m200 [0m14.459 ms - 108[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+[0mGET / [36m304 [0m8.184 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m12.966 ms - -[0m
+[0mGET /components/modal.js [36m304 [0m6.283 ms - -[0m
+[0mGET /components/nav.js [36m304 [0m5.853 ms - -[0m
+[0mGET /components/footer.js [36m304 [0m2.510 ms - -[0m
+[0mGET /components/calendar.js [36m304 [0m2.507 ms - -[0m
+[0mGET /components/profile.js [36m304 [0m3.231 ms - -[0m
+[0mGET /components/comment-modal.js [36m304 [0m0.853 ms - -[0m
+[0mGET /components/delete-modal.js [36m304 [0m0.969 ms - -[0m
+[0mGET /script/app.js [36m304 [0m0.970 ms - -[0m
+[0mGET /script/create-date.js [36m304 [0m1.020 ms - -[0m
+[0mGET /script/delete-comments.js [36m304 [0m0.713 ms - -[0m
+[0mGET /script/get-comments.js [36m304 [0m0.700 ms - -[0m
+[0mGET /script/post-comments.js [36m304 [0m0.495 ms - -[0m
+[0mGET /script/post-users.js [36m304 [0m2.099 ms - -[0m
+[0mGET /script/update-users.js [36m304 [0m1.666 ms - -[0m
+[0mGET /script/sign-up.js [36m304 [0m3.757 ms - -[0m
+[0mGET /script/login.js [36m304 [0m4.938 ms - -[0m
+[0mGET /script/verify.js [36m304 [0m4.682 ms - -[0m
+[0mGET /script/update-comments.js [32m200 [0m10.788 ms - 245[0m
+[0mGET /api/v1/users [36m304 [0m21.159 ms - -[0m
+[0mGET /images/GDay%20Logo.png [36m304 [0m0.428 ms - -[0m
+[0mGET /images/GDay.png [36m304 [0m0.390 ms - -[0m
+[0mPOST /api/v1/verify [32m200 [0m21.180 ms - 262[0m
+[0mGET /api/v1/comments/1 [32m200 [0m14.871 ms - 185[0m
+[0mGET /api/v1/comments/17 [36m304 [0m4.433 ms - -[0m
+[0mGET /api/v1/users [36m304 [0m8.426 ms - -[0m
+[0mPOST /api/v1/comments [32m200 [0m12.082 ms - 104[0m
+[0mGET / [36m304 [0m0.787 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.569 ms - -[0m
+[0mGET /components/modal.js [36m304 [0m0.483 ms - -[0m
+[0mGET /components/nav.js [36m304 [0m1.599 ms - -[0m
+[0mGET /components/footer.js [36m304 [0m1.542 ms - -[0m
+[0mGET /components/calendar.js [36m304 [0m1.338 ms - -[0m
+[0mGET /components/profile.js [36m304 [0m1.398 ms - -[0m
+[0mGET /components/comment-modal.js [36m304 [0m2.428 ms - -[0m
+[0mGET /components/delete-modal.js [36m304 [0m2.634 ms - -[0m
+[0mGET /script/app.js [36m304 [0m2.342 ms - -[0m
+[0mGET /script/create-date.js [36m304 [0m0.875 ms - -[0m
+[0mGET /script/delete-comments.js [36m304 [0m0.688 ms - -[0m
+[0mGET /script/get-comments.js [36m304 [0m0.371 ms - -[0m
+[0mGET /script/post-comments.js [36m304 [0m1.594 ms - -[0m
+[0mGET /script/post-users.js [36m304 [0m1.772 ms - -[0m
+[0mGET /script/update-users.js [36m304 [0m0.800 ms - -[0m
+[0mGET /script/sign-up.js [36m304 [0m0.702 ms - -[0m
+[0mGET /script/login.js [36m304 [0m0.895 ms - -[0m
+[0mGET /script/verify.js [36m304 [0m0.295 ms - -[0m
+[0mGET /script/update-comments.js [36m304 [0m0.358 ms - -[0m
+[0mGET /api/v1/users [36m304 [0m3.516 ms - -[0m
+[0mGET /images/GDay%20Logo.png [36m304 [0m0.343 ms - -[0m
+[0mGET /images/GDay.png [36m304 [0m0.385 ms - -[0m
+[0mPOST /api/v1/verify [32m200 [0m2.950 ms - 262[0m
+[0mGET /api/v1/comments/1 [36m304 [0m5.341 ms - -[0m
+[0mGET /api/v1/comments/17 [32m200 [0m5.527 ms - 48[0m
+11
+hi
+{ comment: 'hi',
+  birthday_user_id: undefined,
+  comment_user_id: undefined }
+[0mPUT /api/v1/comment/11 [32m200 [0m12.875 ms - 105[0m
+[0mGET / [36m304 [0m0.289 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.451 ms - -[0m
+[0mGET /components/modal.js [36m304 [0m0.409 ms - -[0m
+[0mGET /components/nav.js [36m304 [0m1.593 ms - -[0m
+[0mGET /components/footer.js [36m304 [0m0.428 ms - -[0m
+[0mGET /components/calendar.js [36m304 [0m1.061 ms - -[0m
+[0mGET /components/profile.js [36m304 [0m2.814 ms - -[0m
+[0mGET /components/comment-modal.js [36m304 [0m0.818 ms - -[0m
+[0mGET /components/delete-modal.js [36m304 [0m0.827 ms - -[0m
+[0mGET /script/app.js [36m304 [0m6.840 ms - -[0m
+[0mGET /script/create-date.js [36m304 [0m7.572 ms - -[0m
+[0mGET /script/delete-comments.js [36m304 [0m7.528 ms - -[0m
+[0mGET /script/get-comments.js [36m304 [0m6.706 ms - -[0m
+[0mGET /script/post-comments.js [36m304 [0m0.919 ms - -[0m
+[0mGET /script/post-users.js [36m304 [0m2.965 ms - -[0m
+[0mGET /script/update-users.js [36m304 [0m1.576 ms - -[0m
+[0mGET /script/sign-up.js [36m304 [0m1.802 ms - -[0m
+[0mGET /script/login.js [36m304 [0m2.828 ms - -[0m
+[0mGET /script/verify.js [36m304 [0m3.410 ms - -[0m
+[0mGET /script/update-comments.js [36m304 [0m0.490 ms - -[0m
+[0mGET /api/v1/users [36m304 [0m3.292 ms - -[0m
+[0mGET /images/GDay%20Logo.png [36m304 [0m0.694 ms - -[0m
+[0mGET /images/GDay.png [36m304 [0m1.001 ms - -[0m
+[0mPOST /api/v1/verify [32m200 [0m0.882 ms - 262[0m
+[0mGET /api/v1/comments/1 [36m304 [0m2.195 ms - -[0m
+[0mGET /api/v1/comments/17 [32m200 [0m6.220 ms - 45[0m
+[0mDELETE /api/v1/comments/11 [32m200 [0m6.265 ms - 36[0m
+[0mGET / [36m304 [0m0.753 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.892 ms - -[0m
+[0mGET /components/modal.js [36m304 [0m0.819 ms - -[0m
+[0mGET /components/nav.js [36m304 [0m0.974 ms - -[0m
+[0mGET /components/footer.js [36m304 [0m1.070 ms - -[0m
+[0mGET /components/calendar.js [36m304 [0m0.471 ms - -[0m
+[0mGET /components/profile.js [36m304 [0m0.472 ms - -[0m
+[0mGET /components/comment-modal.js [36m304 [0m2.640 ms - -[0m
+[0mGET /components/delete-modal.js [36m304 [0m3.564 ms - -[0m
+[0mGET /script/app.js [36m304 [0m3.645 ms - -[0m
+[0mGET /script/create-date.js [36m304 [0m3.589 ms - -[0m
+[0mGET /script/delete-comments.js [36m304 [0m3.550 ms - -[0m
+[0mGET /script/get-comments.js [36m304 [0m3.951 ms - -[0m
+[0mGET /script/post-comments.js [36m304 [0m3.996 ms - -[0m
+[0mGET /script/post-users.js [36m304 [0m2.018 ms - -[0m
+[0mGET /script/update-users.js [36m304 [0m1.674 ms - -[0m
+[0mGET /script/sign-up.js [36m304 [0m1.197 ms - -[0m
+[0mGET /script/login.js [36m304 [0m0.801 ms - -[0m
+[0mGET /script/verify.js [36m304 [0m0.689 ms - -[0m
+[0mGET /script/update-comments.js [36m304 [0m0.689 ms - -[0m
+[0mGET /api/v1/users [36m304 [0m3.068 ms - -[0m
+[0mGET /images/GDay%20Logo.png [36m304 [0m0.436 ms - -[0m
+[0mGET /images/GDay.png [36m304 [0m0.421 ms - -[0m
+[0mPOST /api/v1/verify [32m200 [0m0.667 ms - 262[0m
+[0mGET /api/v1/comments/1 [36m304 [0m5.122 ms - -[0m
+[0mGET /api/v1/comments/17 [32m200 [0m5.150 ms - 2[0m
+[0mGET / [36m304 [0m0.258 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.601 ms - -[0m
+[0mGET /components/modal.js [36m304 [0m0.348 ms - -[0m
+[0mGET /components/calendar.js [36m304 [0m1.480 ms - -[0m
+[0mGET /components/footer.js [36m304 [0m1.481 ms - -[0m
+[0mGET /components/nav.js [36m304 [0m1.449 ms - -[0m
+[0mGET /components/profile.js [36m304 [0m1.372 ms - -[0m
+[0mGET /components/comment-modal.js [36m304 [0m0.481 ms - -[0m
+[0mGET /components/delete-modal.js [36m304 [0m1.694 ms - -[0m
+[0mGET /script/app.js [36m304 [0m1.728 ms - -[0m
+[0mGET /script/create-date.js [36m304 [0m0.705 ms - -[0m
+[0mGET /script/delete-comments.js [36m304 [0m0.747 ms - -[0m
+[0mGET /script/get-comments.js [36m304 [0m1.730 ms - -[0m
+[0mGET /script/post-comments.js [36m304 [0m2.168 ms - -[0m
+[0mGET /script/post-users.js [36m304 [0m2.921 ms - -[0m
+[0mGET /script/update-users.js [36m304 [0m1.211 ms - -[0m
+[0mGET /script/sign-up.js [36m304 [0m7.266 ms - -[0m
+[0mGET /script/login.js [36m304 [0m7.266 ms - -[0m
+[0mGET /script/verify.js [36m304 [0m2.222 ms - -[0m
+[0mGET /script/update-comments.js [36m304 [0m2.389 ms - -[0m
+[0mGET /api/v1/users [36m304 [0m1.785 ms - -[0m
+[0mGET /images/GDay%20Logo.png [36m304 [0m1.503 ms - -[0m
+[0mGET /images/GDay.png [36m304 [0m1.456 ms - -[0m
+[0mPOST /api/v1/verify [32m200 [0m6.921 ms - 262[0m
+[0mGET /api/v1/comments/1 [36m304 [0m5.686 ms - -[0m
+[0mGET /api/v1/comments/17 [36m304 [0m4.277 ms - -[0m
+^C[1m[7m%[27m[1m[0m                                                                                                                                                              ]2;jose@MacBook-Pro-de-Jose: ~/workspace/playground/week-8/Happy-G-Day]1;..8/Happy-G-Day[0m[27m[24m[J[39m[0m[49m[44m[30m ~/workspace/playground/week-8/Happy-G-Day [43m[34m[30m  jj-dev-08-2 ● [49m[33m[39m [K[?1h=[?2004hggit status[?1l>[?2004l
+]2;git status]1;gitOn branch jj-dev-08-2
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   db/queries.js[m
+	[31mmodified:   public/components/delete-modal.js[m
+	[31mmodified:   public/components/profile.js[m
+	[31mmodified:   public/index.html[m
+	[31mmodified:   public/script/app.js[m
+	[31mmodified:   public/script/delete-comments.js[m
+	[31mmodified:   routes/routes.js[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31mpublic/script/update-comments.js[m
+	[31mpublic/typescript[m
+	[31mroutes/update-comment.js[m
+	[31mtypescript[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[1m[7m%[27m[1m[0m                                                                                                                                                              ]2;jose@MacBook-Pro-de-Jose: ~/workspace/playground/week-8/Happy-G-Day]1;..8/Happy-G-Day[0m[27m[24m[J[39m[0m[49m[44m[30m ~/workspace/playground/week-8/Happy-G-Day [43m[34m[30m  jj-dev-08-2 ● [49m[33m[39m [K[?1h=[?2004h
