@@ -12,6 +12,7 @@ const getAllCommentsById = require('./get-all-comments-by-id.js');
 const postNewUser = require('./post-new-user.js');
 const postNewComment = require('./post-new-comment.js');
 const updateUser = require('./update-user.js');
+const updateComment = require('./update-comment.js')
 const deleteComment = require('./delete-comment.js');
 const webToken = require('./web-token.js');
 const verifyToken = require('./verify-token.js');
@@ -25,6 +26,7 @@ router.get('/comments/:id', getAllCommentsById);
 router.post('/users', postNewUser);
 router.post('/comments', postNewComment);
 router.put('/users/:id', updateUser);
+router.put('/comment/:id', updateComment);
 router.delete('/comments/:id', deleteComment);
 router.post('/login/:id', webToken);
 router.post('/verify', verifyToken);

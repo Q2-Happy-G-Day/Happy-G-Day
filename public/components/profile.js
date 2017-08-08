@@ -43,7 +43,7 @@ let sortComments = comments.sort((a,b)=>{
   }return 0;
 });
   sortComments.forEach((e) => {
-    let deleteTemplate = `<button id="myDeleteBtn${e.id}" class=“btn btn-default delete-button” type=“button” name=“deleteComment”>✖︎</button>`
+    let deleteTemplate = `<button id="myDeleteBtn${e.id}" class=“btn btn-default delete-button” type=“button” name=“deleteComment”>✍🏻</button>`
     let deleteButton = currUser.name == e.name ? deleteTemplate : '';
     let tableRow =
     `<tr>

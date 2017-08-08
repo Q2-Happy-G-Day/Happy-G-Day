@@ -60,8 +60,12 @@ function inititiatePage(data) {
   });
 
   $("#deleteModalBtn").click(function(deleteEvent){
-    deleteComment($('#commentId').data('commentIdNumber'))
-  })
+    deleteComment($('#commentId').data('commentidnumber'))
+  });
+  $("#updateModalBtn").click(function(Event){
+    updateComment($('#commentUpdate').val() ,$('#commentId').data('commentidnumber'))
+    console.log($('#commentUpdate').val() ,$('#commentId').data('commentidnumber'));
+  });
   $("#logOutButton").click((event) => {
     event.preventDefault();
     localStorage.removeItem('token');
