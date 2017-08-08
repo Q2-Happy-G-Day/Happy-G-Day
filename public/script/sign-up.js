@@ -9,9 +9,10 @@ function signUp(event) {
 }
 
 function validateUser(data) {
-  if(data.succes == true){
+  if(data.success == true){
     $('#myModal').modal('hide')
-    logIn(data.user);
+    console.log(data.user[0]);
+    logIn(data.user[0].id);
   } else {
     showSignUpError(data.message);
   }

@@ -3,6 +3,7 @@ const express = require('express');
 const knex = require('../db/knex');
 
 module.exports = function(req, res) {
+  console.log(req.params.id);
   knex('user')
   .select('user.name', 'user.birthday', 'user.id')
   .where('id', req.params.id)

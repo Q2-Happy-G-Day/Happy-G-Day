@@ -1,6 +1,9 @@
+
 function logIn(id) {
-  $.post(url + '/login/:id').then((data) => {
+  console.log(id);
+  $.post(url + '/login/' + id).then((data) => {
     localStorage.setItem('token', JSON.stringify(data.token))
-    lolcalStorage.setItem('currUser', JSON.stringify(data.user))
+    localStorage.setItem('currUser', JSON.stringify(data.user))
+    window.location.reload(true);
   })
 }

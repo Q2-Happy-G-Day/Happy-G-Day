@@ -13,7 +13,7 @@ module.exports = (req, res) => {
     birthday: req.body.birthday,
     password: req.body.password
   })
-  
+
   if (response.success == true) {
     let newUser = {
       name: req.body.name,
@@ -21,7 +21,6 @@ module.exports = (req, res) => {
       password: encrypt(req.body.password)
     }
     postNewUser(newUser).then((data) => {
-      console.log(data);
       res.json({
         success: response.success,
         message: response.message,
