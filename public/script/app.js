@@ -12,6 +12,18 @@ function inititiatePage(data) {
   verifyToken()
   calendar(data);
 
+
+  let usersTime = data.map((e)=>{
+    var today = new Date();
+    var bday = new Date(`${e.birthday.slice(0,6)}/${new Date().getFullYear()}`);
+    var nextBday = new Date(`${e.birthday.slice(0,6)}/${new Date().getFullYear() +1}`);
+    if (bday - today < 0 ) {
+      return nextBday - today;
+    }else {
+      return bday - today;
+    }
+  });
+
   getComments(data[0], 'profiles')
 
   $('footer').append(footer);
