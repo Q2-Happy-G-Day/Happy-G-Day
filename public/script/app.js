@@ -11,6 +11,9 @@ function inititiatePage(data) {
   $('#deleteModal').append(deleteModal);
   calendar(data);
 
+  //The page should check to see if the local storage has a token and log the
+  //person in if it does by parsing the token
+  
   getComments(data[data.length - 1])
 
   $('footer').append(footer);

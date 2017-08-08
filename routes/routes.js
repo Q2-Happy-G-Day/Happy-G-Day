@@ -14,6 +14,7 @@ const postNewComment = require('./post-new-comment.js');
 const updateUser = require('./update-user.js');
 const deleteComment = require('./delete-comment.js');
 const webToken = require('./web-token.js');
+const verifyToken = require('./verify-token.js');
 // Router handling for server
 
 router.get('/users', getAllUsers);
@@ -25,7 +26,7 @@ router.post('/comments', postNewComment);
 router.put('/users/:id', updateUser);
 router.delete('/comments/:id', deleteComment);
 router.post('/login/:id', webToken);
-
+router.post('/verify/', verifyToken);
 //export router
 
 module.exports = router;
