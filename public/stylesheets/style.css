@@ -41,6 +41,11 @@ body {
 .card {
   border: 1px solid var(--color-orange)
 }
+
+.userEditButton, .logOutButton{
+  display: none;
+}
+
 /* Profile Box */
 
 .profilecomponent {

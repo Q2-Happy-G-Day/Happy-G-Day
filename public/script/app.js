@@ -9,12 +9,10 @@ function inititiatePage(data) {
   $('#modal').append(modal);
   $('#commentModal').append(commentModal);
   $('#deleteModal').append(deleteModal);
+  verifyToken()
   calendar(data);
 
-  //The page should check to see if the local storage has a token and log the
-  //person in if it does by parsing the token
-  
-  getComments(data[data.length - 1])
+  getComments(data[0], 'profiles')
 
   $('footer').append(footer);
   $("#myBtn1").click(function(event) {

@@ -1,4 +1,4 @@
-function profile(currUser, user, comments) {
+function profile(currUser, user, comments, target) {
   let userCodeName = user.name.split(' ').join('') + user.id
   let header = '';
   if (user.birthday.slice(0,2) == new Date().getMonth() + 1 && user.birthday.slice(3,5) == new Date().getDate()) {
@@ -28,7 +28,7 @@ function profile(currUser, user, comments) {
     </div>
   </article>
   `
-$('#profiles').append(profile)
+$(`#${target}`).append(profile)
 $(`#myCommentBtn${user.id}`).click(function(event) {
   event.preventDefault();
   // pass user id and curruser id to the modal for the event handler

@@ -26,7 +26,7 @@ router.post('/comments', postNewComment);
 router.put('/users/:id', updateUser);
 router.delete('/comments/:id', deleteComment);
 router.post('/login/:id', webToken);
-router.post('/verify/', verifyToken);
+router.post('/verify', verifyToken);
 //export router
 
 module.exports = router;
