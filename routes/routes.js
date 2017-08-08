@@ -15,6 +15,7 @@ const updateUser = require('./update-user.js');
 const deleteComment = require('./delete-comment.js');
 const webToken = require('./web-token.js');
 const verifyToken = require('./verify-token.js');
+const verifyPassword = require('./verify-password.js');
 // Router handling for server
 
 router.get('/users', getAllUsers);
@@ -27,6 +28,7 @@ router.put('/users/:id', updateUser);
 router.delete('/comments/:id', deleteComment);
 router.post('/login/:id', webToken);
 router.post('/verify', verifyToken);
+router.post('/password', verifyPassword);
 //export router
 
 module.exports = router;

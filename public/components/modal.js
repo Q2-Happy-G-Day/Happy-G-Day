@@ -47,11 +47,11 @@ const modal = `
           <div class="modal-body" id="line">
             <div class="form-group2">
               <label for="usr">Name:</label>
-              <input type="text" class="form-control" id="usr">
+              <input type="text" class="form-control" id="logInUsr">
             </div>
             <div class="form-group2">
               <label for="pwd">Password:</label>
-              <input type="password" class="form-control" id="pwd">
+              <input type="password" class="form-control" id="logInPwd">
             </div>
           </div>
           <div class="modal-footer">

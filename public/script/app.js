@@ -43,8 +43,18 @@ function inititiatePage(data) {
   $("#signUpButton").click(signUp)
   $("#loginButton").click((event) => {
     event.preventDefault();
-    // get log in data from modal and then run the logIn function
-
+    let data = {
+      name: $('#logInUsr').val(),
+      password: $('#logInPwd').val()
+    }
+    $.post(url + '/password', data).then((data) => {
+      if(data.success == true) {
+        logIn(data.userId)
+      } else {
+        $('.logInError').empty().append(data.message)
+        $('.logInError').css('visibility', 'visible')
+      }
+    })
   })
   $('#commentModalBtn').click(function(event){
     event.preventDefault();
@@ -63,5 +73,11 @@ function inititiatePage(data) {
 
   $("#deleteModalBtn").click(function(deleteEvent){
     deleteComment($('#commentId').data('commentIdNumber'))
+  })
+  $("#logOutButton").click((event) => {
+    event.preventDefault();
+    localStorage.removeItem('token');
+    localStorage.removeItem('currUser');
+    window.location.reload(true);
   })
 }
