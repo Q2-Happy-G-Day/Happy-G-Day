@@ -14,7 +14,7 @@ function profile(currUser, user, comments, target) {
           <h4>${header}</h4>
         </div>
         <div class="card-block">
-          <h4 class="card-title" data-idnumber="${user.id}">${user.name}</h4>
+          <h4 id="birthdayUser${user.id}" class="card-title" data-idnumber="${user.id}">${user.name}</h4>
           <p class="card-text"><b>${user.birthday.slice(0,5)}</b></p>
           <button id="myCommentBtn${user.id}" type="button" class="btn btn-default comment-button button">Comment</button>
         </div>
