@@ -26,7 +26,7 @@ function inititiatePage(data) {
 
   getComments(data[0], 'profiles')
 
-console.log(data);
+
   let usersTime = data.map((e)=>{
     var today = new Date();
     var bday = new Date(`${e.birthday.slice(0,6)}/${new Date().getFullYear()}`);
@@ -37,9 +37,6 @@ console.log(data);
     return bday - today;
   }
 });
-console.log(usersTime);
-
-
 
   $('footer').append(footer);
   $("#myBtn1").click(function(event) {
