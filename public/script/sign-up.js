@@ -5,8 +5,7 @@ function signUp(event) {
     birthday: createDate($('#bday').val()),
     password: $('#pwd').val()
   }
-  console.log(newUser.name.length);
-  $.post(`${url}/validate/user`, newUser).then(validateUser)
+  $.post(`${url}/users`, newUser).then(validateUser)
 }
 
 function validateUser(data) {

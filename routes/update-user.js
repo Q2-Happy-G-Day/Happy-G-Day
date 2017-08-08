@@ -7,8 +7,9 @@ module.exports = (req, res) => {
   //Function to update a user's information on the user table
   updateUser(req.body, req.params.id).then((data) => {
     res.json({
-      message: 'success',
+      message: 'update success',
       user: data
     })
   })
+
 }
