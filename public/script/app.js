@@ -9,22 +9,10 @@ function inititiatePage(data) {
   $('#modal').append(modal);
   $('#commentModal').append(commentModal);
   $('#deleteModal').append(deleteModal);
+  $('#updateModal').append(updateModal);
   verifyToken()
   calendar(data);
-
-
-  getComments(data[0], 'profiles')
-
-  let usersTime = data.map((e)=>{
-    var today = new Date();
-    var bday = new Date(`${e.birthday.slice(0,6)}/${new Date().getFullYear()}`);
-    var nextBday = new Date(`${e.birthday.slice(0,6)}/${new Date().getFullYear() +1}`);
-    if (bday - today < 0 ) {
-      return nextBday - today;
-  }else {
-    return bday - today;
-  }
-});
+  showProfiles(data);
 
   $('footer').append(footer);
   $("#myBtn1").click(function(event) {
@@ -79,5 +67,36 @@ function inititiatePage(data) {
     localStorage.removeItem('token');
     localStorage.removeItem('currUser');
     window.location.reload(true);
+  })
+  $('#userEditButton').click((event) => {
+    event.preventDefault();
+    $('.editUserError').css('visibility', 'hidden')
+    $("#myEditModal").modal();
+  })
+  $('#editUserButton').click((event) => {
+    event.preventDefault();
+    let currUser = JSON.parse(localStorage.getItem('currUser'));
+    if (currUser) {
+      let name = $('#updateUsr').val();
+      let birthday = createDate($('#updateBday').val());
+      let password = $('#updatePwd').val();
+      $.ajax({
+        url: url + '/users/' + currUser.id,
+        type: 'PUT',
+        data: {
+          name: name,
+          birthday: birthday,
+          password: password
+        },
+        success: (data) => {
+          if (data.success == false) {
+            $('.editUserError').empty().append(data.message)
+            $('.editUserError').css('visibility', 'visible')
+          } else {
+            logIn(currUser.id)
+          }
+        }
+      })
+    }
   })
 }

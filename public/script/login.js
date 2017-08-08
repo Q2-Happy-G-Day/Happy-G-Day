@@ -1,6 +1,5 @@
 
 function logIn(id) {
-  console.log(id);
   $.post(url + '/login/' + id).then((data) => {
     localStorage.setItem('token', JSON.stringify(data.token))
     localStorage.setItem('currUser', JSON.stringify(data.user))
