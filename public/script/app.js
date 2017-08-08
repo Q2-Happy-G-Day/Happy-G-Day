@@ -15,7 +15,6 @@ function inititiatePage(data) {
 
   getComments(data[0], 'profiles')
 
-
   let usersTime = data.map((e)=>{
     var today = new Date();
     var bday = new Date(`${e.birthday.slice(0,6)}/${new Date().getFullYear()}`);
@@ -57,6 +56,7 @@ function inititiatePage(data) {
     })
   })
   $('#commentModalBtn').click(function(event){
+    console.log("hello");
     event.preventDefault();
     let loggedInUser = JSON.parse(localStorage.getItem('currUser'))
     if (loggedInUser) {

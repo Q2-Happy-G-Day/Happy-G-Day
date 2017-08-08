@@ -26,7 +26,7 @@ module.exports = {
   updateUser: (user, id) => {
     return knex('user').where('id', id).update(user).returning('*');
   },
-  deleteComment: (comment, id) => {
+  deleteComment: (id) => {
     return knex('comment').where('id', id).del();
   }
 }
