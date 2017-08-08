@@ -5,7 +5,11 @@ body {
   --tr-td-first-child-font-size: 1.5em;
   --commentName: 0.75em;
   --color-orange: #f2911f;
-
+  background: url(http://www.freeppt.net/template/bubbles-powerpoint-templates-colourful.jpg)no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 /* Keep Scroll Bar */
@@ -130,22 +134,26 @@ tr td:first-child {
   height: 100%;
 }
 
+
 .center {
   display: inline;
 }
 
 #calendar {
-  text-align: center;
-    max-width: 70%;
-    margin-left: 15%;
-    padding-top: 40px;
-    padding-bottom: 2em;
-    display: flex;
-    flex-wrap: wrap;
-  }
+  position: relative;
+  max-width: 100%;
+  margin: 20%;
+  margin-top: 0%;
+  padding-top: 40px;
+  padding-bottom: 0em;
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+
 
 .content {
   /*float: left;*/
+  background-color: white;
 }
 
 /* remove to go back to text */
@@ -202,7 +210,7 @@ tr td:first-child {
   padding: 10px;
   text-align: center;
   border: 1px solid var(--color-orange);
-  width: 175px;
+  width: 225px;
   height: 50px;
   background-repeat:no-repeat;
   background-position: center;
@@ -220,8 +228,8 @@ tr td:first-child {
   text-align: left;
   border: 1px solid #acacac;
   border-top: none;
-  width: 175px;
-  height: 100px;
+  width: 225px;
+  height: 150px;
   overflow: scroll;
 }
 
@@ -249,9 +257,4 @@ tr td:first-child {
     border-radius: 5px;
     width: 100%;
   }
-}
-
-main {
-  display:block;
-  page-break-inside:avoid;
 }
