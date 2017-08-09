@@ -18,7 +18,7 @@
 * [HTML, CSS, JS, JQuery, AJAX, Node.js, Express, SQL & Postgres ] - List of programs we used 
 
 ## Happy G-Day Demo Video 
-- https://youtu.be/a3vccwwjffE
+- https://www.youtube.com/watch?v=a3vccwwjffE&feature=youtu.be
 
 ## Deployment
 - Heroku
