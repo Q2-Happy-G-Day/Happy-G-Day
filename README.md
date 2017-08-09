@@ -27,3 +27,5 @@
 
 ![erd](./public/images/erd-mockup.jpg)
    
+## Happy G-Day Demo Video 
+- https://youtu.be/a3vccwwjffE
