@@ -17,6 +17,8 @@
 * [Bootstrap](http://getbootstrap.com/) - Framework Used
 * [HTML, CSS, JS, JQuery, AJAX, Node.js, Express, SQL & Postgres ] - List of programs we used 
 
+## Happy G-Day Demo Video 
+- https://youtu.be/a3vccwwjffE
 
 ## Deployment
 - Heroku
@@ -27,5 +29,4 @@
 
 ![erd](./public/images/erd-mockup.jpg)
    
-## Happy G-Day Demo Video 
-- https://youtu.be/a3vccwwjffE
+
