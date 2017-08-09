@@ -12,7 +12,11 @@ DevCru
   3. Jose Julio Junior
   4. Matthew Drumheller
 
-[Pivotal Tracker User Stories](https://www.pivotaltracker.com/n/projects/2089457)
+## Built With
+* [Pivotal Tracker User Stories](https://www.pivotaltracker.com/n/projects/2089457) - Dependency Management
+* [Bootstrap](http://getbootstrap.com/) - Framework Used
+* [HTML, CSS, JS, JQuery, Node.js, Express & Postgres ] - List of programs we used 
+
 
 ## Deployment
 - Heroku
