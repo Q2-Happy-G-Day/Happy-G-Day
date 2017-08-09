@@ -15,7 +15,7 @@ DevCru
 ## Built With
 * [Pivotal Tracker User Stories](https://www.pivotaltracker.com/n/projects/2089457) - Dependency Management
 * [Bootstrap](http://getbootstrap.com/) - Framework Used
-* [HTML, CSS, JS, JQuery, Node.js, Express & Postgres ] - List of programs we used 
+* [HTML, CSS, JS, JQuery, AJAX, Node.js, Express, SQL & Postgres ] - List of programs we used 
 
 
 ## Deployment
