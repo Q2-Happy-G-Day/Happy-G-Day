@@ -1,5 +1,9 @@
 
 const encrypt = require('../security/encrypt/encrypt.js')
+const jj = process.env.JJ_PASSWORD
+const rick = process.env.RICK_PASSWORD
+const matt = procees.env.MATT_PASSWORD
+const jasmine = process.env.JASMINE_PASSWORD
 
 exports.seed = function(knex, Promise) {
   // Deletes ALL existing entries
@@ -10,22 +14,22 @@ exports.seed = function(knex, Promise) {
         id: 1,
         name: 'JJ',
         birthday: '08/25/1990',
-        password: encrypt('cruzeiro')
+        password: encrypt(jj)
       },{
         id: 2,
         name: 'Matthew Drumheller',
         birthday: '08/27/1984',
-        password: encrypt('snorlax')
+        password: encrypt(matt)
       },{
         id: 3,
         name: 'Jasmine Cervantes',
         birthday: '07/13/1989',
-        password: encrypt('whiskey')
+        password: encrypt(jasmine)
       },{
         id: 4,
         name: 'Recardo Poole',
         birthday: '12/09/1975',
-        password: encrypt('celtics')
+        password: encrypt(rick)
       }];
 
       return knex('user').insert(users);
