@@ -16,14 +16,12 @@ function showProfiles(users){
       }
     })
     let nextBirthday = users[0]
-    for (var t = 0; t < 3; t++)
-      for (var i = 0; i < birthdayTime.length; i++) {
-        if (birthdayTime[0] > birthdayTime[i] && !birthdayDay.includes(users[i])) {
-          nextBirthday = users[i]
-        }
-        birthdayDay.push(nextBirthday)
-        console.log(birthdayDay);
+    for (var i = 0; i < birthdayTime.length; i++) {
+      if (birthdayTime[0] > birthdayTime[i] && !birthdayDay.includes(users[i])) {
+        nextBirthday = users[i]
+      }
     }
+    birthdayDay.push(nextBirthday)
   }
 
   birthdayDay.forEach((e) => {
