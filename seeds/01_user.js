@@ -2,7 +2,7 @@
 const encrypt = require('../security/encrypt/encrypt.js')
 const jj = process.env.JJ_PASSWORD
 const rick = process.env.RICK_PASSWORD
-const matt = procees.env.MATT_PASSWORD
+const matt = process.env.MATT_PASSWORD
 const jasmine = process.env.JASMINE_PASSWORD
 
 exports.seed = function(knex, Promise) {
